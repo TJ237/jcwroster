@@ -1,7 +1,57 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+<p style="text-align: center;"><strong>Last Updated: Destination X</strong></p>
+<table style="border-collapse: collapse; width: 100%; height: 481px;" border="1">
+<tbody>
+<tr style="height: 481px;">
+<td style="width: 50%; height: 481px; text-align: center;">
+
+<p><button onclick="setData(this)" > Josh </button></p>
+<p><button onclick="setData(this)" > Clag </button></p>
+<p><button onclick="setData(this)" > Trey </button></p>
+
+<p><button onclick="addButtons()" > Add Buttons </button></p>
+
+<div id="newButtons"></div>
+
+</td>
+<td style="width: 50%; height: 481px;">
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://upload.wikimedia.org/wikipedia/en/7/7b/WWE_World_Heavyweight_Championship.png" alt="" width="421" height="236" /></p>
+<p id="name" style="text-align: center;">NAME</p>
+<p style="text-align: center;">FACE/HEEL</p>
+<p style="text-align: center;">SIGNATURES</p>
+<p style="text-align: center;">FINISHERS</p>
+<p style="text-align: center;">ENTRANCE MOTION</p>
+<p style="text-align: center;">ENTRANCE MUSIC</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<script>
+function setData(charButton)
+{
+  var x = document.getElementById("name");
+  var charname = charButton.textContent;
+  x.innerHTML = charname;
+}
+
+function addButtons()
+{
+	var names = ["Name1","Name2", "Name3"];
+	
+    for (i = 0; i < names.length; i++)
+    {
+	let p = document.createElement("p");
+    
+	let btn = document.createElement("button");
+	//btn.innerHTML = "New Button";
+    btn.innerHTML = names[i];
+    //btn.onclick = setData(btn);
+    btn.onclick = function(){setData(btn);};
+    
+    p.appendChild(btn);
+    var buttonLoc = document.getElementById("newButtons");
+    buttonLoc.appendChild(p);
+	//document.body.appendChild(p)
+    }
+}
+</script>
