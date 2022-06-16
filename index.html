@@ -1,3 +1,5 @@
+<body onload="javascript:addButtons()">
+
 <p style="text-align: center;"><strong>Last Updated: Destination X</strong></p>
 <table style="border-collapse: collapse; width: 100%; height: 481px;" border="1">
 <tbody>
@@ -8,22 +10,22 @@
 <p><button onclick="setData(this)" > Josh </button></p>
 <p><button onclick="setData(this)" > Clag </button></p>
 <p><button onclick="setData(this)" > Trey </button></p>
---->
 
-<p><button onclick="addButtons()" > Add Buttons </button></p>
+
+<p><button onclick="addButtons()" > Add Buttons </button></p>--->
 
 <div id="newButtons"></div>
 
 </td>
 <td style="width: 50%; height: 481px;">
 <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://upload.wikimedia.org/wikipedia/en/7/7b/WWE_World_Heavyweight_Championship.png" alt="" width="421" height="236" /></p>
-<p id="name" style="text-align: center;">NAME</p>
-<p style="text-align: center;">FACE/HEEL</p>
-<p style="text-align: center;">BASE MOVE SET</p>
-<p style="text-align: center;">SIGNATURES</p>
-<p style="text-align: center;">FINISHERS</p>
-<p style="text-align: center;">ENTRANCE MOTION</p>
-<p style="text-align: center;">ENTRANCE MUSIC</p>
+<p id="name" style="text-align: center; font-size:30px;"><b>NAME</b></p>
+<p id="reaction" style="text-align: center;">FACE/HEEL</p>
+<p id="moveset" style="text-align: center;"><b>BASE MOVE SET</b><br /></p>
+<p id="signatures" style="text-align: center;"><b>SIGNATURES</b><br /></p>
+<p id="finishers" style="text-align: center;"><b>FINISHERS</b><br /></p>
+<p id="entmotion" style="text-align: center;"><b>ENTRANCE MOTION</b><br /></p>
+<p id="entmusic" style="text-align: center;"><b>ENTRANCE MUSIC</b><br /></p>
 </td>
 </tr>
 </tbody>
@@ -38,18 +40,43 @@
 </p>
 
 <script>
+var myData;
+
 function setData(charButton)
 {
-  var x = document.getElementById("name");
-  var charname = charButton.textContent;
-  x.innerHTML = charname;
+
+	document.getElementById("name").innerHTML = "<b>" + myData[charButton.value].Name + "</b>";
+    document.getElementById("reaction").innerHTML = myData[charButton.value].Reaction;
+    
+    document.getElementById("moveset").innerHTML = "<b>BASE MOVE SET</b><br />"
+    document.getElementById("moveset").innerHTML += myData[charButton.value].Moveset;
+    
+    document.getElementById("signatures").innerHTML = "<b>SIGNATURES</b><br />"
+    document.getElementById("signatures").innerHTML += myData[charButton.value].Signatures[0] + "<br />";
+    document.getElementById("signatures").innerHTML += myData[charButton.value].Signatures[1];
+    
+    document.getElementById("finishers").innerHTML = "<b>FINISHERS</b><br />"
+    document.getElementById("finishers").innerHTML += myData[charButton.value].Finishers[0] + "<br />";
+    document.getElementById("finishers").innerHTML += myData[charButton.value].Finishers[1];
+    
+    document.getElementById("entmotion").innerHTML = "<b>ENTRANCE MOTION</b><br />"
+    document.getElementById("entmotion").innerHTML += myData[charButton.value].Entrance;
+    
+    document.getElementById("entmusic").innerHTML = "<b>ENTRANCE MUSIC</b><br />"
+    document.getElementById("entmusic").innerHTML += myData[charButton.value].Music;
+    
+    
+  //var x = document.getElementById("name");
+  //var charname = charButton.textContent;
+  //var charname = myData[charButton.value].Name;
+  //x.innerHTML = charname;
 }
 
 function addButtons()
 {
 	data = '[{"Name": "Josh","Reaction": "Heel","Moveset": "Seth Rollins - Fully Customized","Signatures": ["Inverted Suplex/Reverse DDT","Dragon Sleeper 6"],"Finishers": ["GTS 2","Single Leg Knee Strike 1"],"Entrance": "Randy Orton","Music": "The Other Side - Alter Bridge"},{"Name": "Trey","Reaction": "Face","Moveset": "Bobby Lashley","Signatures": ["Dominator 1","Spinebuster 9"],"Finishers": ["Spear 11","Yokosuka Cutter 2"],"Entrance": "Bobby Lashley","Music": "Heartless"}]'
     
-    var myData = JSON.parse(data);
+    myData = JSON.parse(data);
     
     var musicList = document.getElementById("music");
     var motionList = document.getElementById("motions");
@@ -63,6 +90,7 @@ function addButtons()
     btn.innerHTML = myData[i].Name;
     //btn.onclick = setData(btn);
     btn.onclick = function(){setData(btn);};
+    btn.value = i;
     
     p.appendChild(btn);
     var buttonLoc = document.getElementById("newButtons");
