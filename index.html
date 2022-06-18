@@ -56,7 +56,7 @@
 
 	async function loadTest()
 	{
-		const response = await fetch("roster.json");
+		const response = await fetch("roster.json?v=1.0");
 		const json = await response.text();
 		//console.log(json);
 		
