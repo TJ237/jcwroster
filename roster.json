@@ -1,11 +1,21 @@
 [
 	{
+		"Name": "Blaire",
+		"Reaction": "Heel",
+		"Moveset": "Custom",
+		"Signatures": ["Sister Abigail 4","Slingblade & Basement Dropkick"],
+		"Finishers": ["STF Camel Clutch 1","Tequila Sunrise 1"],
+		"Entrance": "Bad Attitude",
+		"Music": "Shotzi",
+		"Img": "/Renders/Vacant.png"
+	},
+	{
 		"Name": "Clag",
 		"Reaction": "Heel",
 		"Moveset": "Rey Mysterio",
-		"Signatures": ["",""],
-		"Finishers": ["",""],
-		"Entrance": "Ricochet 1",
+		"Signatures": ["Dragon Twist Cutter","630 Senton"],
+		"Finishers": ["360 Double Knee Facebreaker","Stone Cold Stunner 1"],
+		"Entrance": "Ricochet 2",
 		"Music": "King Nakamura",
 		"Img": "/Renders/Vacant.png"
 	},
