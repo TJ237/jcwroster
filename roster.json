@@ -1,5 +1,15 @@
 [
 	{
+		"Name": "Clag",
+		"Reaction": "Heel",
+		"Moveset": "Rey Mysterio",
+		"Signatures": ["",""],
+		"Finishers": ["",""],
+		"Entrance": "Ricochet 1",
+		"Music": "King Nakamura",
+		"Img": "/Renders/Vacant.png"
+	},
+	{
 		"Name": "Josh",
 		"Reaction": "Heel",
 		"Moveset": "Seth Rollins - Fully Customized",
@@ -7,7 +17,8 @@
 		"Finishers": ["GTS 2","Single Leg Knee Strike 1"],
 		"Entrance": "Randy Orton",
 		"Music": "The Other Side - Alter Bridge",
-		"Img": "/Renders/Josh.png"},
+		"Img": "/Renders/Josh.png"
+	},
 	{
 		"Name": "Trey",
 		"Reaction": "Face",
