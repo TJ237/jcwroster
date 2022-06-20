@@ -33,7 +33,7 @@
 	{
 		var charButton = document.getElementById("names").selectedIndex - 1;
 
-		document.getElementById("pic").src = myData[charButton].Img;
+		//document.getElementById("pic").src = myData[charButton].Img;
 
 		document.getElementById("name").innerHTML = "<b>" + myData[charButton].Name + "</b>";
 		document.getElementById("reaction").innerHTML = myData[charButton].Reaction;
@@ -58,7 +58,7 @@
 
 	async function loadTest()
 	{
-		const response = await fetch("roster.json?v=1.1");
+		const response = await fetch("roster.json?v=1.2");
 		const json = await response.text();
 		//console.log(json);
 		
