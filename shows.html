@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <head>
+  	<link rel="stylesheet" href="styles.css?v=1.0">
+  	<title>JCW Shows</title>
+
+  	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  	<meta http-equiv="Pragma" content="no-cache" />
+  	<meta http-equiv="Expires" content="0" />
+  </head>
+  <body onload="loadShows()">
+
+	<select class="center" name="seasons" id="seasons" onchange="changeSeason();">
+		<option>Season 2</option>
+	</select>
+
+  <<div id="new"></div>
+
+  </body>
+
+  <script type="text/javascript">
+    var myData;
+
+    function changeSeason() {
+      document.getElementById("new").innerHTML = "";
+
+      var s = document.getElementById("seasons").selectedIndex;
+      var ppvs = myData["seasons"][s]["ppvs"];
+
+      //console.log( ppvs.length );
+
+      for (i = 0; i < ppvs.length; i++)
+  		{
+        // Stuff
+        var tag = document.createElement("h1");
+        tag.innerHTML = ppvs[i].Name;
+        tag.style = "color: " + ppvs[i].Color + "; border-color: " + ppvs[i].Color;
+        tag.classList.add("ppv-item");
+
+        //for (m = 0; m < ppvs[i]["Matches"].length; m++)
+        for (m = 0; m < ppvs[i]["Matches"].length; m++)
+        {
+          //console.log( ppvs[i].Name );
+          var match = document.createElement("p");
+          match.innerHTML = ppvs[i]["Matches"][m];
+          match.innerHTML = match.innerHTML.replace(" | ", "\n");
+          tag.appendChild(match);
+        }
+
+        document.getElementById("new").appendChild(tag);
+  		}
+    }
+
+    async function loadShows()
+  	{
+  		const response = await fetch("Shows.json?v=1.0");
+  		const json = await response.text();
+  		//console.log(json);
+
+  		myData = JSON.parse(json);
+
+      changeSeason();
+  	}
+  </script>
+</html>
