@@ -1,6 +1,7 @@
 [{
 		"Name": "Ahsoka Tano",
 		"Reaction": "Face",
+		"Male": false,
 		"Moveset": "Bayley",
 		"Signatures": ["Gamengiri/Cartwheel Moonsault", "Black Out 3"],
 		"Finishers": ["Kamigoye 1", "Sweet Chin Music 2"],
@@ -10,6 +11,7 @@
 	{
 		"Name": "Alice Hart",
 		"Reaction": "Heel",
+		"Male": false,
 		"Moveset": "Alexa Bliss",
 		"Signatures": ["Hammerlock DDT 2", "Sliced Bread #2"],
 		"Finishers": ["Sweet Chin Music 1", "Twisted Bliss"],
@@ -19,6 +21,7 @@
 	{
 		"Name": "Aloy",
 		"Reaction": "Face",
+		"Male": false,
 		"Moveset": "-",
 		"Signatures": ["Interceptor", "Team Kick Combo 2"],
 		"Finishers": ["Black Out Meteora", "Arm Trapped Boston Crab"],
@@ -28,6 +31,7 @@
 	{
 		"Name": "Amanda Diaz",
 		"Reaction": "Heel",
+		"Male": false,
 		"Moveset": "Rhea Ripley",
 		"Signatures": ["Stump-Puller Piledriver 2", "Ricola Bomb"],
 		"Finishers": ["Russian Bottom", "High Angle Spinebuster"],
@@ -37,6 +41,7 @@
 	{
 		"Name": "Amerist",
 		"Reaction": "Heel",
+		"Male": true,
 		"Moveset": "Kane '08",
 		"Signatures": ["Sidewalk Slam 2", "Falling Powerbomb"],
 		"Finishers": ["Chokeslam 4", "Tombstone Piledriver 2"],
@@ -46,6 +51,7 @@
 	{
 		"Name": "Bad Bunny",
 		"Reaction": "Face",
+		"Male": true,
 		"Moveset": "Eddie Guerrero '97",
 		"Signatures": ["Hurricanrana 2", "Gory Bomb"],
 		"Finishers": ["Flip Piledriver", "The Reckoning"],
@@ -55,6 +61,7 @@
 	{
 		"Name": "Batman",
 		"Reaction": "Face",
+		"Male": true,
 		"Moveset": "-",
 		"Signatures": ["German Suplex/Ripcord Lariat", "Small Package Driver 2"],
 		"Finishers": ["Batista Bomb 1", "Arm Trapped Crossface 4"],
@@ -64,6 +71,7 @@
 	{
 		"Name": "Blaire",
 		"Reaction": "Heel",
+		"Male": false,
 		"Moveset": "-",
 		"Signatures": ["Sister Abigail 4", "Slingblade & Basement Dropkick"],
 		"Finishers": ["STF Camel Clutch 1", "Tequila Sunrise 1"],
@@ -73,6 +81,7 @@
 	{
 		"Name": "Bombshell",
 		"Reaction": "Face",
+		"Male": false,
 		"Moveset": "Raquel Gonzalez",
 		"Signatures": ["Fireman's Carry Cutter", "Piper's Pit"],
 		"Finishers": ["Chingona Bomb", "Cloverleaf 1"],
@@ -82,6 +91,7 @@
 	{
 		"Name": "Catwoman",
 		"Reaction": "Heel",
+		"Male": false,
 		"Moveset": "Peyton Royce",
 		"Signatures": ["Pele Kick 3", "Springboard Front Dropkick"],
 		"Finishers": ["Keibler Kick", "Black Widow"],
@@ -91,6 +101,7 @@
 	{
 		"Name": "Chad Thundercock",
 		"Reaction": "Face",
+		"Male": true,
 		"Moveset": "-",
 		"Signatures": ["Diving Leg Drop 4", "RKO 1"],
 		"Finishers": ["Panama Sunrise", "Split-Legged Leg Drop"],
@@ -100,6 +111,7 @@
 	{
 		"Name": "Chris Anderson",
 		"Reaction": "Face",
+		"Male": true,
 		"Moveset": "Stone Cold",
 		"Signatures": ["3:16 Thesz Press", "Corner Trapped Knee Lifts 2"],
 		"Finishers": ["Thrill of the Hunt", "Riptide"],
@@ -109,6 +121,7 @@
 	{
 		"Name": "CJ Lee",
 		"Reaction": "Heel",
+		"Male": false,
 		"Moveset": "-",
 		"Signatures": ["Rose Plant 1", "Bank Statement 2"],
 		"Finishers": ["Wicked Stepsister 1", "Wing Clipper 1"],
@@ -118,6 +131,7 @@
 	{
 		"Name": "Clag",
 		"Reaction": "Heel",
+		"Male": true,
 		"Moveset": "Rey Mysterio",
 		"Signatures": ["Dragon Twist Cutter", "630 Senton"],
 		"Finishers": ["360 Double Knee Facebreaker", "Stone Cold Stunner 1"],
@@ -127,6 +141,7 @@
 	{
 		"Name": "Dash Anderson",
 		"Reaction": "Face",
+		"Male": true,
 		"Moveset": "Cesaro",
 		"Signatures": ["UFO", "King of Swing"],
 		"Finishers": ["Neutralizer 2", "Sharpshooter 3"],
@@ -136,6 +151,7 @@
 	{
 		"Name": "El Phantasma",
 		"Reaction": "Face",
+		"Male": true,
 		"Moveset": "Santos Escobar",
 		"Signatures": ["Dudebuster", "Aztec Press"],
 		"Finishers": ["Metalik Driver", "450 Splash"],
@@ -145,6 +161,7 @@
 	{
 		"Name": "Gary",
 		"Reaction": "Heel",
+		"Male": true,
 		"Moveset": "JBL",
 		"Signatures": ["Middle Rope Elbow Drop 1", "Delayed Falling Fist Drop 1"],
 		"Finishers": ["The Million Dollar Dream", "Cobra Clutch 2"],
@@ -154,6 +171,7 @@
 	{
 		"Name": "Hana Yuki",
 		"Reaction": "Face",
+		"Male": false,
 		"Moveset": "Io Shirai",
 		"Signatures": ["Spanish Fly", "Springboard 450 Splash"],
 		"Finishers": ["Tiger Suplex 4", "Rolling Thunder Facebreaker"],
@@ -163,6 +181,7 @@
 	{
 		"Name": "Human Spider",
 		"Reaction": "Face",
+		"Male": true,
 		"Moveset": "-",
 		"Signatures": ["Running Hurricanrana 1", "Avalanche Bulldog"],
 		"Finishers": ["Salida Del Sol 1", "Dragon Twist Cutter"],
@@ -172,6 +191,7 @@
 	{
 		"Name": "Jason Voorhees",
 		"Reaction": "Heel",
+		"Male": true,
 		"Moveset": "-",
 		"Signatures": ["Vise Grip 1", "Skull Tap"],
 		"Finishers": ["Jackhammer", "Pop-Up Gutwrench Suplex"],
@@ -181,6 +201,7 @@
 	{
 		"Name": "Jessica Blake",
 		"Reaction": "Face",
+		"Male": false,
 		"Moveset": "Custom",
 		"Signatures": ["Big Boot 10", "Blue Thunder Bomb"],
 		"Finishers": ["Styles Clash 1", "450 Splash"],
@@ -190,6 +211,7 @@
 	{
 		"Name": "Jinx",
 		"Reaction": "Heel",
+		"Male": false,
 		"Moveset": "Asuka",
 		"Signatures": ["Running Hip Attack 3", "Lariat"],
 		"Finishers": ["Last Shot 1", "Airplane Spin/TKO"],
@@ -199,6 +221,7 @@
 	{
 		"Name": "Joe Cruise",
 		"Reaction": "Face",
+		"Male": true,
 		"Moveset": "Happy Corbin",
 		"Signatures": ["Chokeslam Backbreaker", ""],
 		"Finishers": ["Bridging Package Powerbomb", "End of Days 1"],
@@ -208,6 +231,7 @@
 	{
 		"Name": "Johnny Knoxville",
 		"Reaction": "Face",
+		"Male": true,
 		"Moveset": "Sami Zayn",
 		"Signatures": ["Blue Thunder Bomb", "Torpedo DDT"],
 		"Finishers": ["Helluva Kick 1", "Big Boot 10"],
@@ -217,6 +241,7 @@
 	{
 		"Name": "Joker",
 		"Reaction": "Heel",
+		"Male": true,
 		"Moveset": "-",
 		"Signatures": ["Reality Check 1", "Throat Thrust 4"],
 		"Finishers": ["Dr Teeth", "Double Knee Facebreaker"],
@@ -226,271 +251,301 @@
 	{
 		"Name": "Josh",
 		"Reaction": "Heel",
+		"Male": true,
 		"Moveset": "Custom",
 		"Signatures": ["Inverted Suplex/Reverse DDT", "Dragon Sleeper 6"],
 		"Finishers": ["GTS 2", "Single Leg Knee Strike 1"],
 		"Entrance": "Murphy 2",
 		"Music": "The Other Side - Alter Bridge"
 	},
-  {
-    "Name": "Kratos",
-    "Reaction": "Face",
-    "Moveset": "Roman Reigns",
-    "Signatures": ["Top Rope Brainbuster", "Psycho Cutter"],
-    "Finishers": ["Kudo Driver", "Omega Driver"],
-    "Entrance": "Roman Reigns 1",
-    "Music": "Roman Reigns"
-  },
-  {
-  	"Name": "Lamar",
-  	"Reaction": "Face",
-  	"Moveset": "John Cena",
-  	"Signatures": ["Five Knuckle Shuffle 2", "STF 4"],
-  	"Finishers": ["Attitude Adjustment 2", "Twist of Fate 1"],
-  	"Entrance": "John Cena 1",
-  	"Music": "John Cena"
-  },
-  {
-  	"Name": "Luna Ivy",
-  	"Reaction": "Face",
-  	"Moveset": "Shotzi",
-  	"Signatures": ["Slingshot X-Factor", "Devlin Side 1"],
-  	"Finishers": ["Basement Dropkick", "Diving Senton Bomb 1"],
-  	"Entrance": "Cedric Alexander",
-  	"Music": "Cedric Alexander"
-  },
-  {
-  	"Name": "Martyr",
-  	"Reaction": "Heel",
-  	"Moveset": "-",
-  	"Signatures": ["Iron Claw 1", "Teardrop Suplex Combo"],
-  	"Finishers": ["Burning Hammer 1", "Torture Rack Bomb"],
-  	"Entrance": "Reckoning",
-  	"Music": "Riot of Violence - Kreator"
-  },
-  {
-  	"Name": "Master Chief",
-  	"Reaction": "Face",
-  	"Moveset": "Goldberg",
-  	"Signatures": ["Wicked Stepsister 1", "Military Press Spinebuster"],
-  	"Finishers": ["Feast Your Eyes 1", "Sharpshooter 3"],
-  	"Entrance": "Goldberg",
-  	"Music": "Goldberg"
-  },
-  {
-  	"Name": "Max",
-  	"Reaction": "Heel",
-  	"Moveset": "Big Boss Man",
-  	"Signatures": ["Bearhug Spinebuster", "Spinebuster 4"],
-  	"Finishers": ["Boss Man Slam", "Spinning Side Slam 3"],
-  	"Entrance": "Big Boss Man 1",
-  	"Music": "Big Boss Man"
-  },
-  {
-  	"Name": "Michael",
-  	"Reaction": "Heel",
-  	"Moveset": "Triple H",
-  	"Signatures": ["Spinebuster 6", "Figure 4 Leglock 7"],
-  	"Finishers": ["Pedigree 2", "Pedigree 3"],
-  	"Entrance": "Triple H",
-  	"Music": "Triple H"
-  },
-  {
-  	"Name": "Miles Greene",
-  	"Reaction": "Face",
-  	"Moveset": "Isaiah Swerve Scott",
-  	"Signatures": ["Butterfly DDT 2", "Northern Lights Suplex 4"],
-  	"Finishers": ["Basement Back Kick", "Spiral Tap"],
-  	"Entrance": "Isaiah Swerve Scott",
-  	"Music": "Isaiah Swerve Scott"
-  },
-  {
-  	"Name": "Moon Knight",
-  	"Reaction": "Face",
-  	"Moveset": "Tommaso Ciampa",
-  	"Signatures": ["Fallaway Moonsault Slam", "German Suplex/Ripcord Lariat"],
-  	"Finishers": ["Fairy Tale Ending", "Package Piledriver"],
-  	"Entrance": "Munitions Specialist",
-  	"Music": "Moon Knight - Hesham Nazih"
-  },
-  {
-  	"Name": "Nacho Libre",
-  	"Reaction": "Face",
-  	"Moveset": "Kalisto",
-  	"Signatures": ["Avalanche Victory Roll", "Grand Backhand"],
-  	"Finishers": ["Salida Del Sol 2", "Diving Headbutt 1"],
-  	"Entrance": "Kalisto 1",
-  	"Music": "I Am I Am - Nacho Libre Soundtrack"
-  },
-  {
-  	"Name": "Overgiver",
-  	"Reaction": "Heel",
-  	"Moveset": "Undertaker '10",
-  	"Signatures": ["Wing Clipper 1", "Sit-Out Alabama Slam"],
-  	"Finishers": ["Sit-Out Crucifix Powerbomb", "Sister Abigail 4"],
-  	"Entrance": "Robert Roode 1",
-  	"Music": "Robert Roode"
-  },
-  {
-  	"Name": "Palpatine",
-  	"Reaction": "Heel",
-  	"Moveset": "Undertaker",
-  	"Signatures": ["Facebuster 4", "Lawn Dart 1"],
-  	"Finishers": ["Chokeslam 5", "Tongan Death Grip"],
-  	"Entrance": "Undertaker",
-  	"Music": "Undertaker"
-  },
-  {
-  	"Name": "Pepsi Man",
-  	"Reaction": "Heel",
-  	"Moveset": "-",
-  	"Signatures": ["Hammerlock Lariat 2", "Superman Punch 1"],
-  	"Finishers": ["Shooting Star 4", "Diving Elbow Drop 2"],
-  	"Entrance": "The Living Legend 1",
-  	"Music": "Pepsi Man Game Song"
-  },
-  {
-  	"Name": "Prince Alexander",
-  	"Reaction": "Heel",
-  	"Moveset": "Finn Balor",
-  	"Signatures": ["Torpedo Moscow 2", "BME"],
-  	"Finishers": ["1916", "Front Flip DDT"],
-  	"Entrance": "Finn Balor",
-  	"Music": "Finn Balor"
-  },
-  {
-  	"Name": "Roxanne Fisher",
-  	"Reaction": "Face",
-  	"Moveset": "Shayna Baszler",
-  	"Signatures": ["KTFO", "Murphy Combo"],
-  	"Finishers": ["Fisherman Driver 2", "Kirifuda Driver"],
-  	"Entrance": "Rowdy Rebel 2",
-  	"Music": "Shayna Baszler"
-  },
-  {
-  	"Name": "Scarlett",
-  	"Reaction": "Heel",
-  	"Moveset": "Dakota Kai",
-  	"Signatures": ["Brainbuster 8", "Top Rope Brainbuster"],
-  	"Finishers": ["Punt Kick", "Kairopractor"],
-  	"Entrance": "Dakota Kai 1",
-  	"Music": "Dakota Kai"
-  },
-  {
-  	"Name": "Scott Roux",
-  	"Reaction": "Face",
-  	"Moveset": "Pete Dunne",
-  	"Signatures": ["X-Plex", "Forearm/Basement Haymaker"],
-  	"Finishers": ["WMD", "Seven Star Lariat 2"],
-  	"Entrance": "Pete Dunne",
-  	"Music": "Pete Dunne"
-  },
-  {
-  	"Name": "Shaw Mercer",
-  	"Reaction": "Face",
-  	"Moveset": "Brock Lesnar",
-  	"Signatures": ["Angle Slam 1", "F-5 3"],
-  	"Finishers": ["Vertical Suplex Powerbomb", "Tombstone Piledriver 2"],
-  	"Entrance": "Brock Lesnar",
-  	"Music": "Brock Lesnar"
-  },
-  {
-  	"Name": "Shego",
-  	"Reaction": "Heel",
-  	"Moveset": "Bayley",
-  	"Signatures": ["Bayley To Belly Suplex", "Avalanche Bayley To Belly"],
-  	"Finishers": ["Taste of Pain", "DDT 4"],
-  	"Entrance": "Bayley 1",
-  	"Music": "Bayley"
-  },
-  {
-  	"Name": "Sheik",
-  	"Reaction": "Face",
-  	"Moveset": "Rey Mysterio Jr",
-  	"Signatures": ["Avalanche Falcon Arrow", "Backflip DDT"],
-  	"Finishers": ["Cave-In", "630 Senton"],
-  	"Entrance": "Rey Mysterio Jr",
-  	"Music": "Rey Mysterio Jr"
-  },
-  {
-  	"Name": "Shroud",
-  	"Reaction": "Heel",
-  	"Moveset": "The Miz '11",
-  	"Signatures": ["Playmaker", "Superkick 5"],
-  	"Finishers": ["Skull Crushing Finale", "The Stomp 1"],
-  	"Entrance": "The Miz '11",
-  	"Music": "The Miz"
-  },
-  {
-  	"Name": "SMAB",
-  	"Reaction": "Heel",
-  	"Moveset": "Braun Strowman",
-  	"Signatures": ["German Suplex 5", "F10"],
-  	"Finishers": ["The Last Ride 1", "Avalanche Powerbomb"],
-  	"Entrance": "Andre The Giant",
-  	"Music": "Andre The Giant"
-  },
-  {
-  	"Name": "Sofia Lacasa",
-  	"Reaction": "Heel",
-  	"Moveset": "Carmella",
-  	"Signatures": ["Insult to Injury 2", "Code of Silence"],
-  	"Finishers": ["Wheelbarrow Facebuster 2", "Sunset Flip Powerbomb 1"],
-  	"Entrance": "Carmella 1",
-  	"Music": "Carmella"
-  },
-  {
-  	"Name": "Taylor Storm",
-  	"Reaction": "Face",
-  	"Moveset": "Sonya Deville",
-  	"Signatures": ["Rope Hung Lungblower", "Roundhouse Kick 12"],
-  	"Finishers": ["Superkick 14", "Triangle Armbar 1"],
-  	"Entrance": "Trish Stratus",
-  	"Music": "Trish Stratus"
-  },
-  {
-  	"Name": "Trey",
-  	"Reaction": "Face",
-  	"Moveset": "Bobby Lashley",
-  	"Signatures": ["Dominator 1", "Spinebuster 9"],
-  	"Finishers": ["Spear 11", "Yokosuka Cutter 2"],
-  	"Entrance": "Bobby Lashley 2",
-  	"Music": "Heartless - The Weeknd"
-  },
-  {
-  	"Name": "Tyrone",
-  	"Reaction": "Face",
-  	"Moveset": "Ricochet",
-  	"Signatures": ["Spinebuster 11", "Peoples Elbow"],
-  	"Finishers": ["Rock Bottom 1", "Hurricanrana Driver"],
-  	"Entrance": "The Rock",
-  	"Music": "The Rock"
-  },
-  {
-  	"Name": "Valkyrie",
-  	"Reaction": "Face",
-  	"Moveset": "-",
-  	"Signatures": ["Helluva Kick 1", "Bankrupt"],
-  	"Finishers": ["Revolution Knee 2", "Revolution Knee 1"],
-  	"Entrance": "Knight Rider",
-  	"Music": "A-Kid"
-  },
-    {
-  	"Name": "Willow",
-  	"Reaction": "Face",
-  	"Moveset": "-",
-  	"Signatures": ["Spinebuster 16", "Batista Bomb 2"],
-  	"Finishers": ["Air Raid Bomb", "Powerbomb 8"],
-  	"Entrance": "Power of Love",
-  	"Music": "Dana Brooke"
-  },
-  {
-  	"Name": "Wonder Woman",
-  	"Reaction": "Face",
-  	"Moveset": "Beth Phoenix",
-  	"Signatures": ["Tilt-A-Whirl Slam 2", "Elevated Wristlock"],
-  	"Finishers": ["Superman Punch / Spear Combo", "Glam Slam 2"],
-  	"Entrance": "Beth Phoenix",
-  	"Music": "Beth Phoenix"
-  }
+	{
+		"Name": "Kratos",
+		"Reaction": "Face",
+		"Male": true,
+		"Moveset": "Roman Reigns",
+		"Signatures": ["Top Rope Brainbuster", "Psycho Cutter"],
+		"Finishers": ["Kudo Driver", "Omega Driver"],
+		"Entrance": "Roman Reigns 1",
+		"Music": "Roman Reigns"
+	},
+	{
+		"Name": "Lamar",
+		"Reaction": "Face",
+		"Male": true,
+		"Moveset": "John Cena",
+		"Signatures": ["Five Knuckle Shuffle 2", "STF 4"],
+		"Finishers": ["Attitude Adjustment 2", "Twist of Fate 1"],
+		"Entrance": "John Cena 1",
+		"Music": "John Cena"
+	},
+	{
+		"Name": "Luna Ivy",
+		"Reaction": "Face",
+		"Male": false,
+		"Moveset": "Shotzi",
+		"Signatures": ["Slingshot X-Factor", "Devlin Side 1"],
+		"Finishers": ["Basement Dropkick", "Diving Senton Bomb 1"],
+		"Entrance": "Cedric Alexander",
+		"Music": "Cedric Alexander"
+	},
+	{
+		"Name": "Martyr",
+		"Reaction": "Heel",
+		"Male": true,
+		"Moveset": "-",
+		"Signatures": ["Iron Claw 1", "Teardrop Suplex Combo"],
+		"Finishers": ["Burning Hammer 1", "Torture Rack Bomb"],
+		"Entrance": "Reckoning",
+		"Music": "Riot of Violence - Kreator"
+	},
+	{
+		"Name": "Master Chief",
+		"Reaction": "Face",
+		"Male": true,
+		"Moveset": "Goldberg",
+		"Signatures": ["Wicked Stepsister 1", "Military Press Spinebuster"],
+		"Finishers": ["Feast Your Eyes 1", "Sharpshooter 3"],
+		"Entrance": "Goldberg",
+		"Music": "Goldberg"
+	},
+	{
+		"Name": "Max",
+		"Reaction": "Heel",
+		"Male": true,
+		"Moveset": "Big Boss Man",
+		"Signatures": ["Bearhug Spinebuster", "Spinebuster 4"],
+		"Finishers": ["Boss Man Slam", "Spinning Side Slam 3"],
+		"Entrance": "Big Boss Man 1",
+		"Music": "Big Boss Man"
+	},
+	{
+		"Name": "Michael",
+		"Reaction": "Heel",
+		"Male": true,
+		"Moveset": "Triple H",
+		"Signatures": ["Spinebuster 6", "Figure 4 Leglock 7"],
+		"Finishers": ["Pedigree 2", "Pedigree 3"],
+		"Entrance": "Triple H",
+		"Music": "Triple H"
+	},
+	{
+		"Name": "Miles Greene",
+		"Reaction": "Face",
+		"Male": true,
+		"Moveset": "Isaiah Swerve Scott",
+		"Signatures": ["Butterfly DDT 2", "Northern Lights Suplex 4"],
+		"Finishers": ["Basement Back Kick", "Spiral Tap"],
+		"Entrance": "Isaiah Swerve Scott",
+		"Music": "Isaiah Swerve Scott"
+	},
+	{
+		"Name": "Moon Knight",
+		"Reaction": "Face",
+		"Male": true,
+		"Moveset": "Tommaso Ciampa",
+		"Signatures": ["Fallaway Moonsault Slam", "German Suplex/Ripcord Lariat"],
+		"Finishers": ["Fairy Tale Ending", "Package Piledriver"],
+		"Entrance": "Munitions Specialist",
+		"Music": "Moon Knight - Hesham Nazih"
+	},
+	{
+		"Name": "Nacho Libre",
+		"Reaction": "Face",
+		"Male": true,
+		"Moveset": "Kalisto",
+		"Signatures": ["Avalanche Victory Roll", "Grand Backhand"],
+		"Finishers": ["Salida Del Sol 2", "Diving Headbutt 1"],
+		"Entrance": "Kalisto 1",
+		"Music": "I Am I Am - Nacho Libre Soundtrack"
+	},
+	{
+		"Name": "Overgiver",
+		"Reaction": "Heel",
+		"Male": true,
+		"Moveset": "Undertaker '10",
+		"Signatures": ["Wing Clipper 1", "Sit-Out Alabama Slam"],
+		"Finishers": ["Sit-Out Crucifix Powerbomb", "Sister Abigail 4"],
+		"Entrance": "Robert Roode 1",
+		"Music": "Robert Roode"
+	},
+	{
+		"Name": "Palpatine",
+		"Reaction": "Heel",
+		"Male": true,
+		"Moveset": "Undertaker",
+		"Signatures": ["Facebuster 4", "Lawn Dart 1"],
+		"Finishers": ["Chokeslam 5", "Tongan Death Grip"],
+		"Entrance": "Undertaker",
+		"Music": "Undertaker"
+	},
+	{
+		"Name": "Pepsi Man",
+		"Reaction": "Heel",
+		"Male": true,
+		"Moveset": "-",
+		"Signatures": ["Hammerlock Lariat 2", "Superman Punch 1"],
+		"Finishers": ["Shooting Star 4", "Diving Elbow Drop 2"],
+		"Entrance": "The Living Legend 1",
+		"Music": "Pepsi Man Game Song"
+	},
+	{
+		"Name": "Prince Alexander",
+		"Reaction": "Heel",
+		"Male": true,
+		"Moveset": "Finn Balor",
+		"Signatures": ["Torpedo Moscow 2", "BME"],
+		"Finishers": ["1916", "Front Flip DDT"],
+		"Entrance": "Finn Balor",
+		"Music": "Finn Balor"
+	},
+	{
+		"Name": "Roxanne Fisher",
+		"Reaction": "Face",
+		"Male": false,
+		"Moveset": "Shayna Baszler",
+		"Signatures": ["KTFO", "Murphy Combo"],
+		"Finishers": ["Fisherman Driver 2", "Kirifuda Driver"],
+		"Entrance": "Rowdy Rebel 2",
+		"Music": "Shayna Baszler"
+	},
+	{
+		"Name": "Scarlett",
+		"Reaction": "Heel",
+		"Male": false,
+		"Moveset": "Dakota Kai",
+		"Signatures": ["Brainbuster 8", "Top Rope Brainbuster"],
+		"Finishers": ["Punt Kick", "Kairopractor"],
+		"Entrance": "Dakota Kai 1",
+		"Music": "Dakota Kai"
+	},
+	{
+		"Name": "Scott Roux",
+		"Reaction": "Face",
+		"Male": true,
+		"Moveset": "Pete Dunne",
+		"Signatures": ["X-Plex", "Forearm/Basement Haymaker"],
+		"Finishers": ["WMD", "Seven Star Lariat 2"],
+		"Entrance": "Pete Dunne",
+		"Music": "Pete Dunne"
+	},
+	{
+		"Name": "Shaw Mercer",
+		"Reaction": "Face",
+		"Male": true,
+		"Moveset": "Brock Lesnar",
+		"Signatures": ["Angle Slam 1", "F-5 3"],
+		"Finishers": ["Vertical Suplex Powerbomb", "Tombstone Piledriver 2"],
+		"Entrance": "Brock Lesnar",
+		"Music": "Brock Lesnar"
+	},
+	{
+		"Name": "Shego",
+		"Reaction": "Heel",
+		"Male": false,
+		"Moveset": "Bayley",
+		"Signatures": ["Bayley To Belly Suplex", "Avalanche Bayley To Belly"],
+		"Finishers": ["Taste of Pain", "DDT 4"],
+		"Entrance": "Bayley 1",
+		"Music": "Bayley"
+	},
+	{
+		"Name": "Sheik",
+		"Reaction": "Face",
+		"Male": false,
+		"Moveset": "Rey Mysterio Jr",
+		"Signatures": ["Avalanche Falcon Arrow", "Backflip DDT"],
+		"Finishers": ["Cave-In", "630 Senton"],
+		"Entrance": "Rey Mysterio Jr",
+		"Music": "Rey Mysterio Jr"
+	},
+	{
+		"Name": "Shroud",
+		"Reaction": "Heel",
+		"Male": true,
+		"Moveset": "The Miz '11",
+		"Signatures": ["Playmaker", "Superkick 5"],
+		"Finishers": ["Skull Crushing Finale", "The Stomp 1"],
+		"Entrance": "The Miz '11",
+		"Music": "The Miz"
+	},
+	{
+		"Name": "SMAB",
+		"Reaction": "Heel",
+		"Male": true,
+		"Moveset": "Braun Strowman",
+		"Signatures": ["German Suplex 5", "F10"],
+		"Finishers": ["The Last Ride 1", "Avalanche Powerbomb"],
+		"Entrance": "Andre The Giant",
+		"Music": "Andre The Giant"
+	},
+	{
+		"Name": "Sofia Lacasa",
+		"Reaction": "Heel",
+		"Male": false,
+		"Moveset": "Carmella",
+		"Signatures": ["Insult to Injury 2", "Code of Silence"],
+		"Finishers": ["Wheelbarrow Facebuster 2", "Sunset Flip Powerbomb 1"],
+		"Entrance": "Carmella 1",
+		"Music": "Carmella"
+	},
+	{
+		"Name": "Taylor Storm",
+		"Reaction": "Face",
+		"Male": false,
+		"Moveset": "Sonya Deville",
+		"Signatures": ["Rope Hung Lungblower", "Roundhouse Kick 12"],
+		"Finishers": ["Superkick 14", "Triangle Armbar 1"],
+		"Entrance": "Trish Stratus",
+		"Music": "Trish Stratus"
+	},
+	{
+		"Name": "Trey",
+		"Reaction": "Face",
+		"Male": true,
+		"Moveset": "Bobby Lashley",
+		"Signatures": ["Dominator 1", "Spinebuster 9"],
+		"Finishers": ["Spear 11", "Yokosuka Cutter 2"],
+		"Entrance": "Bobby Lashley 2",
+		"Music": "Heartless - The Weeknd"
+	},
+	{
+		"Name": "Tyrone",
+		"Reaction": "Face",
+		"Male": true,
+		"Moveset": "Ricochet",
+		"Signatures": ["Spinebuster 11", "Peoples Elbow"],
+		"Finishers": ["Rock Bottom 1", "Hurricanrana Driver"],
+		"Entrance": "The Rock",
+		"Music": "The Rock"
+	},
+	{
+		"Name": "Valkyrie",
+		"Reaction": "Face",
+		"Male": false,
+		"Moveset": "-",
+		"Signatures": ["Helluva Kick 1", "Bankrupt"],
+		"Finishers": ["Revolution Knee 2", "Revolution Knee 1"],
+		"Entrance": "Knight Rider",
+		"Music": "A-Kid"
+	},
+		{
+		"Name": "Willow",
+		"Reaction": "Face",
+		"Male": false,
+		"Moveset": "-",
+		"Signatures": ["Spinebuster 16", "Batista Bomb 2"],
+		"Finishers": ["Air Raid Bomb", "Powerbomb 8"],
+		"Entrance": "Power of Love",
+		"Music": "Dana Brooke"
+	},
+	{
+		"Name": "Wonder Woman",
+		"Reaction": "Face",
+		"Male": false,
+		"Moveset": "Beth Phoenix",
+		"Signatures": ["Tilt-A-Whirl Slam 2", "Elevated Wristlock"],
+		"Finishers": ["Superman Punch / Spear Combo", "Glam Slam 2"],
+		"Entrance": "Beth Phoenix",
+		"Music": "Beth Phoenix"
+	}
 ]

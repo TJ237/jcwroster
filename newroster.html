@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="styles.css?v=1.1">
+	<title>JCW Roster</title>
+	
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+</head>
+<body onload="loadTest()">
+
+	<div class="roster-container">
+		<div id="rosterDiv" class="roster-div">
+		</div>
+
+		<div class="wrestler-div">
+			<p><img class="portrait" src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Vacant.png" alt="" width="250" height="250" id="pic" /></p>
+			<p id="name" style="text-align: center; font-size:30px;"><b>NAME</b></p>
+			<p id="reaction" style="text-align: center;">FACE/HEEL</p>
+			<p id="moveset" style="text-align: center;"><b>BASE MOVE SET</b><br /></p>
+			<p id="signatures" style="text-align: center;"><b>SIGNATURES</b><br /></p>
+			<p id="finishers" style="text-align: center;"><b>FINISHERS</b><br /></p>
+			<p id="entmotion" style="text-align: center;"><b>ENTRANCE MOTION</b><br /></p>
+			<p id="entmusic" style="text-align: center;"><b>ENTRANCE MUSIC</b><br /></p>
+		</div>
+	</div>
+
+	<div class="filter-container">
+		<select id="filter-gender" onchange="changeFilter();">
+			<option>All</option>
+			<option>Male</option>
+			<option>Female</option>
+		</select>
+
+		<select id="filter-reaction" onchange="changeFilter();">
+			<option>All</option>
+			<option>Face</option>
+			<option>Heel</option>
+		</select>
+	</div>
+
+	<p id="music" style="margin-top: 10%;">
+		<b>All Music Being Used:</b>
+	</p>
+	
+	<p id="motions">
+		<b>All Motions Being Used:</b>
+	</p>
+</body>
+
+<script>
+	function changeFilter()
+	{
+		var wList = document.getElementById("rosterDiv").querySelectorAll(".wrestler-button");
+		var gFilterVal = document.getElementById("filter-gender").selectedIndex;
+		var rFilterVal = document.getElementById("filter-reaction").selectedIndex;
+
+		for (i = 0; i < wList.length; i++)
+		{
+			if (gFilterVal == 0 && rFilterVal == 0)
+			{
+				wList[i].style.display = "block";
+				continue;
+			}
+
+			var gMatch = true;
+			var rMatch = true;
+
+			if (gFilterVal != 0)
+			{
+				if (myData[i].Male && gFilterVal == 1 || !myData[i].Male && gFilterVal == 2)
+				{ gMatch = true; }
+				else
+				{ gMatch = false; }
+			}
+
+			if (rFilterVal != 0)
+			{
+				if (myData[i].Reaction == "Face" && rFilterVal == 1 || myData[i].Reaction == "Heel" && rFilterVal == 2)
+				{ rMatch = true; }
+				else
+				{ rMatch = false; }
+			}
+
+			if (gMatch && rMatch)
+			{ wList[i].style.display = "block"; }
+			else
+			{ wList[i].style.display = "none"; }
+		}
+	}
+
+	function setData(b)
+	{
+		var charButton = b.value;
+
+		//document.getElementById("pic").src = myData[charButton].Img;
+
+		document.getElementById("name").innerHTML = "<b>" + myData[charButton].Name + "</b>";
+		document.getElementById("reaction").innerHTML = myData[charButton].Reaction;
+		
+		document.getElementById("moveset").innerHTML = "<b>BASE MOVE SET</b><br />"
+		document.getElementById("moveset").innerHTML += myData[charButton].Moveset;
+		
+		document.getElementById("signatures").innerHTML = "<b>SIGNATURES</b><br />"
+		document.getElementById("signatures").innerHTML += myData[charButton].Signatures[0] + "<br />";
+		document.getElementById("signatures").innerHTML += myData[charButton].Signatures[1];
+		
+		document.getElementById("finishers").innerHTML = "<b>FINISHERS</b><br />"
+		document.getElementById("finishers").innerHTML += myData[charButton].Finishers[0] + "<br />";
+		document.getElementById("finishers").innerHTML += myData[charButton].Finishers[1];
+		
+		document.getElementById("entmotion").innerHTML = "<b>ENTRANCE MOTION</b><br />"
+		document.getElementById("entmotion").innerHTML += myData[charButton].Entrance;
+		
+		document.getElementById("entmusic").innerHTML = "<b>ENTRANCE MUSIC</b><br />"
+		document.getElementById("entmusic").innerHTML += myData[charButton].Music;
+	}
+
+	async function loadTest()
+	{
+		const response = await fetch("roster.json?v=1.3");
+		const json = await response.text();
+		
+		myData = JSON.parse(json);
+
+		var namesList = document.getElementById("names");
+		var musicList = document.getElementById("music");
+		var motionList = document.getElementById("motions");
+		
+		for (i = 0; i < myData.length; i++)
+		{
+			let p = document.createElement("p");
+			
+			musicList.innerHTML += "<br />" + myData[i].Music;
+			motionList.innerHTML += "<br />" + myData[i].Entrance;
+
+			var rosterCont = document.getElementById("rosterDiv");
+			let b = document.createElement("button");
+			b.innerText = myData[i].Name;
+			b.value = i;
+			b.classList.add("wrestler-button");
+			b.addEventListener('click', function(){
+				setData(b);
+			});
+			rosterCont.append(b);
+		}
+	}
+</script>
+
+</html>
