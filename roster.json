@@ -73,8 +73,8 @@
 		"Reaction": "Heel",
 		"Male": false,
 		"Moveset": "-",
-		"Signatures": ["Sister Abigail 4", "Slingblade & Basement Dropkick"],
-		"Finishers": ["STF Camel Clutch 1", "Tequila Sunrise 1"],
+		"Signatures": ["STF Camel Clutch 1", "Slingblade & Basement Dropkick"],
+		"Finishers": ["Sister Abigail 4", "Torture Rack Back Stabber 1"],
 		"Entrance": "Bad Attitude",
 		"Music": "Shotzi"
 	},
@@ -533,8 +533,8 @@
 		"Reaction": "Face",
 		"Male": false,
 		"Moveset": "-",
-		"Signatures": ["Spinebuster 16", "Batista Bomb 2"],
-		"Finishers": ["Air Raid Bomb", "Powerbomb 8"],
+		"Signatures": ["South of Heaven", "Spinebuster 16"],
+		"Finishers": ["Spirit Bomb", "Burning Hammer 2"],
 		"Entrance": "Power of Love",
 		"Music": "Dana Brooke"
 	},
