@@ -134,7 +134,7 @@
 		"Male": true,
 		"Moveset": "Rey Mysterio",
 		"Signatures": ["Dragon Twist Cutter", "630 Senton"],
-		"Finishers": ["360 Double Knee Facebreaker", "Stone Cold Stunner 1"],
+		"Finishers": ["360 Double Knee Facebreaker", "Superman Punch 1"],
 		"Entrance": "Ricochet 2",
 		"Music": "King Nakamura"
 	},
@@ -535,8 +535,8 @@
 		"Moveset": "-",
 		"Signatures": ["South of Heaven", "Spinebuster 16"],
 		"Finishers": ["Spirit Bomb", "Burning Hammer 2"],
-		"Entrance": "Power of Love",
-		"Music": "Dana Brooke"
+		"Entrance": "Mia Yim",
+		"Music": "Olivia Rodrigo - good 4 u (Instrumental)"
 	},
 	{
 		"Name": "Wonder Woman",
