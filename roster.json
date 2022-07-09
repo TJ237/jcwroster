@@ -259,6 +259,16 @@
 		"Music": "The Other Side - Alter Bridge"
 	},
 	{
+		"Name": "King Alexander",
+		"Reaction": "Heel",
+		"Male": true,
+		"Moveset": "Finn Balor",
+		"Signatures": ["Torpedo Moscow 2", "BME"],
+		"Finishers": ["1916", "Front Flip DDT"],
+		"Entrance": "Baron Corbin",
+		"Music": "I Bring The Darkness - Baron Corbin"
+	},
+	{
 		"Name": "Kratos",
 		"Reaction": "Face",
 		"Male": true,
@@ -389,23 +399,13 @@
 		"Music": "Pepsi Man Game Song"
 	},
 	{
-		"Name": "Prince Alexander",
-		"Reaction": "Heel",
-		"Male": true,
-		"Moveset": "Finn Balor",
-		"Signatures": ["Torpedo Moscow 2", "BME"],
-		"Finishers": ["1916", "Front Flip DDT"],
-		"Entrance": "Finn Balor",
-		"Music": "Finn Balor"
-	},
-	{
 		"Name": "Roxanne Fisher",
 		"Reaction": "Face",
 		"Male": false,
 		"Moveset": "Shayna Baszler",
 		"Signatures": ["KTFO", "Murphy Combo"],
 		"Finishers": ["Fisherman Driver 2", "Kirifuda Driver"],
-		"Entrance": "Rowdy Rebel 2",
+		"Entrance": "Ronda Rousey",
 		"Music": "Shayna Baszler"
 	},
 	{
@@ -488,6 +488,16 @@
 		"Entrance": "Carmella 1",
 		"Music": "Carmella"
 	},
+ 	{
+		"Name": "Spider-Gwen",
+		"Reaction": "Face",
+		"Male": false,
+		"Moveset": "Sasha Banks",
+		"Signatures": ["Royal Butterfly", "Rolling Thunder"],
+		"Finishers": ["Springboard Shooting Star", "The Shiniest Wizard"],
+		"Entrance": "Mustafa Ali 2",
+		"Music": "Mustafa Ali"
+ 	},
 	{
 		"Name": "Taylor Storm",
 		"Reaction": "Face",
