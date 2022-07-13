@@ -15,9 +15,12 @@
 	<p><img class="portrait" src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Vacant.png" alt="" width="250" height="250" id="pic" /></p>
 	<p id="name" style="text-align: center; font-size:30px;"><b>NAME</b></p>
 	<p id="reaction" style="text-align: center;">FACE/HEEL</p>
+	<p id="hometown" style="text-align: center;">HOMETOWN</p>
+
 	<p id="moveset" style="text-align: center;"><b>BASE MOVE SET</b><br /></p>
 	<p id="signatures" style="text-align: center;"><b>SIGNATURES</b><br /></p>
 	<p id="finishers" style="text-align: center;"><b>FINISHERS</b><br /></p>
+
 	<p id="entmotion" style="text-align: center;"><b>ENTRANCE MOTION</b><br /></p>
 	<p id="entmusic" style="text-align: center;"><b>ENTRANCE MUSIC</b><br /></p>
 
@@ -39,6 +42,12 @@
 
 		document.getElementById("name").innerHTML = "<b>" + myData[charButton].Name + "</b>";
 		document.getElementById("reaction").innerHTML = myData[charButton].Reaction;
+
+		if (myData[charButton].Hometown)
+			document.getElementById("hometown").innerHTML = 
+				"From " + myData[charButton].Hometown;
+		else
+			document.getElementById("hometown").innerHTML = "";
 		
 		document.getElementById("moveset").innerHTML = "<b>BASE MOVE SET</b><br />"
 		document.getElementById("moveset").innerHTML += myData[charButton].Moveset;

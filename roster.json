@@ -6,7 +6,8 @@
 		"Signatures": ["Gamengiri/Cartwheel Moonsault", "Black Out 3"],
 		"Finishers": ["Kamigoye 1", "Sweet Chin Music 2"],
 		"Entrance": "Ricochet 1",
-		"Music": "Ricochet"
+		"Music": "Ricochet",
+		"Hometown": "Out Of This World"
 	},
 	{
 		"Name": "Alice Hart",
@@ -16,7 +17,8 @@
 		"Signatures": ["Hammerlock DDT 2", "Sliced Bread #2"],
 		"Finishers": ["Sweet Chin Music 1", "Twisted Bliss"],
 		"Entrance": "Charlotte Flair 2",
-		"Music": "Charlotte Flair"
+		"Music": "Charlotte Flair",
+		"Hometown": "Newcastle Upon Tyne, England"
 	},
 	{
 		"Name": "Aloy",
@@ -26,7 +28,8 @@
 		"Signatures": ["Interceptor", "Team Kick Combo 2"],
 		"Finishers": ["Black Out Meteora", "Arm Trapped Boston Crab"],
 		"Entrance": "Kay Lee Ray",
-		"Music": "Hardcore 3"
+		"Music": "Hardcore 3",
+		"Hometown": "Colorado"
 	},
 	{
 		"Name": "Amanda Diaz",
@@ -36,7 +39,8 @@
 		"Signatures": ["Stump-Puller Piledriver 2", "Ricola Bomb"],
 		"Finishers": ["Russian Bottom", "High Angle Spinebuster"],
 		"Entrance": "Rhea Ripley",
-		"Music": "Rhea Ripley"
+		"Music": "Rhea Ripley",
+		"Hometown": "Atlanta, Georgia"
 	},
 	{
 		"Name": "Amerist",
@@ -46,7 +50,8 @@
 		"Signatures": ["Sidewalk Slam 2", "Falling Powerbomb"],
 		"Finishers": ["Chokeslam 4", "Tombstone Piledriver 2"],
 		"Entrance": "Marcel Barthel",
-		"Music": "Imperium"
+		"Music": "Imperium",
+		"Hometown": "Phoenix, Arizona"
 	},
 	{
 		"Name": "Bad Bunny",
@@ -56,7 +61,8 @@
 		"Signatures": ["Hurricanrana 2", "Gory Bomb"],
 		"Finishers": ["Flip Piledriver", "The Reckoning"],
 		"Entrance": "Alpha Omega",
-		"Music": "Booker T - Bad Bunny"
+		"Music": "Booker T - Bad Bunny",
+		"Hometown": "San Juan, Puerto Rico"
 	},
 	{
 		"Name": "Batman",
@@ -66,7 +72,8 @@
 		"Signatures": ["German Suplex/Ripcord Lariat", "Small Package Driver 2"],
 		"Finishers": ["Batista Bomb 1", "Arm Trapped Crossface 4"],
 		"Entrance": "Undertaker WM36",
-		"Music": "Gold Medalist"
+		"Music": "Gold Medalist",
+		"Hometown": "Parts Unknown"
 	},
 	{
 		"Name": "Blaire",
@@ -76,7 +83,8 @@
 		"Signatures": ["STF Camel Clutch 1", "Slingblade & Basement Dropkick"],
 		"Finishers": ["Sister Abigail 4", "Torture Rack Back Stabber 1"],
 		"Entrance": "Bad Attitude",
-		"Music": "Shotzi"
+		"Music": "Shotzi",
+		"Hometown": "Portland, Oregon"
 	},
 	{
 		"Name": "Bombshell",
@@ -86,7 +94,8 @@
 		"Signatures": ["Fireman's Carry Cutter", "Piper's Pit"],
 		"Finishers": ["Chingona Bomb", "Cloverleaf 1"],
 		"Entrance": "Raquel Gonzalez",
-		"Music": "Raquel Gonzalez"
+		"Music": "Raquel Gonzalez",
+		"Hometown": "Anaheim, California"
 	},
 	{
 		"Name": "Catwoman",
@@ -96,7 +105,8 @@
 		"Signatures": ["Pele Kick 3", "Springboard Front Dropkick"],
 		"Finishers": ["Keibler Kick", "Black Widow"],
 		"Entrance": "Peyton Royce",
-		"Music": "Peyton Royce"
+		"Music": "Peyton Royce",
+		"Hometown": "Long Island, New York"
 	},
 	{
 		"Name": "Chad Thundercock",
@@ -106,7 +116,8 @@
 		"Signatures": ["Diving Leg Drop 4", "RKO 1"],
 		"Finishers": ["Panama Sunrise", "Split-Legged Leg Drop"],
 		"Entrance": "Mr McMahon",
-		"Music": "Mr McMahon"
+		"Music": "Mr McMahon",
+		"Hometown": "Chad"
 	},
 	{
 		"Name": "Chris Anderson",
@@ -116,7 +127,8 @@
 		"Signatures": ["3:16 Thesz Press", "Corner Trapped Knee Lifts 2"],
 		"Finishers": ["Thrill of the Hunt", "Riptide"],
 		"Entrance": "Cactus Jack",
-		"Music": "Cactus Jack"
+		"Music": "Cactus Jack",
+		"Hometown": "Amarillo, Texas"
 	},
 	{
 		"Name": "CJ Lee",
