@@ -24,16 +24,43 @@
 	<p id="entmotion" style="text-align: center;"><b>ENTRANCE MOTION</b><br /></p>
 	<p id="entmusic" style="text-align: center;"><b>ENTRANCE MUSIC</b><br /></p>
 
-	<p id="music" style="margin-top: 10%;">
-		<b>All Music Being Used:</b>
+	<br>
+	<p style="margin-top: 10%;">
+		<b>Current Champions</b> <i>(post Survivor Series)</i> <br>
+		<b>JCW Champion:</b> Clag <br>
+		<b>Women's Champion:</b> Blaire <br>
+		<b>North American Champion:</b> Tyrone <i>(2)</i> <br>
+		<b>United States Champion:</b> <i>VACANT</i> <br>
 	</p>
+
+	<p onclick="showHideMusic()" 
+		style="margin-top: 5%; margin-bottom: 0; background-color: dimgray; cursor: pointer;">
+		<b>Show Music Being Used</b>
+	</p>
+	<p id="music" style="margin-top: 0; display: none;"></p>
 	
-	<p id="motions">
-		<b>All Motions Being Used:</b>
+	<p onclick="showHideMotions()"
+		style="margin-top: 5%; margin-bottom: 0; background-color: dimgray; cursor: pointer;">
+		<b>Show Entrance Motions Being Used</b>
 	</p>
+	<p id="motions" style="margin-top: 0; display: none;"></p>
 </body>
 
 <script>
+	function showHideMusic()
+	{
+		var element = document.getElementById("music");
+		if (element.style.display == "none") element.style.display = "block";
+		else element.style.display = "none";
+	}
+
+	function showHideMotions()
+	{
+		var element = document.getElementById("motions");
+		if (element.style.display == "none") element.style.display = "block";
+		else element.style.display = "none";
+	}
+
 	function setData()
 	{
 		var charButton = document.getElementById("names").selectedIndex - 1;
@@ -90,6 +117,39 @@
 			musicList.innerHTML += "<br />" + myData[i].Music;
 			motionList.innerHTML += "<br />" + myData[i].Entrance;
 		}
+	}
+
+	function genWheel()
+	{
+		var mURL = "https://wheeldecide.com/index.php?";
+		var fURL = "https://wheeldecide.com/index.php?";
+		
+		var maleList = [];
+		var femaleList = [];
+
+		for (c = 0; c < myData.length; c++)
+		{
+			//console.log(myData[c].Name + ": " + myData[c].Male);
+			if (myData[c].Male) maleList.push(myData[c].Name);
+			else femaleList.push(myData[c].Name);
+		}
+
+		for (n = 0; n < maleList.length; n++)
+		{
+			maleList[n] = maleList[n].replace(' ', '+');
+			mURL += "c" + (n+1) + "=" + maleList[n] + "&";
+		}
+		
+		for (f = 0; f < femaleList.length; f++)
+		{
+			femaleList[f] = femaleList[f].replace(' ', '+');
+			fURL += "c" + (f+1) + "=" + femaleList[f] + "&";
+		}
+		
+		mURL += "time=5";
+		fURL += "time=5";
+		console.log(mURL);
+		console.log(fURL);
 	}
 </script>
 
