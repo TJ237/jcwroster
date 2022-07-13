@@ -138,7 +138,8 @@
 		"Signatures": ["Rose Plant 1", "Bank Statement 2"],
 		"Finishers": ["Wicked Stepsister 1", "Wing Clipper 1"],
 		"Entrance": "Liv Morgan",
-		"Music": "Liv Morgan"
+		"Music": "Liv Morgan",
+		"Hometown": "Cincinnati, Ohio"
 	},
 	{
 		"Name": "Clag",
@@ -148,7 +149,8 @@
 		"Signatures": ["Dragon Twist Cutter", "630 Senton"],
 		"Finishers": ["360 Double Knee Facebreaker", "Superman Punch 1"],
 		"Entrance": "Ricochet 2",
-		"Music": "King Nakamura"
+		"Music": "King Nakamura",
+		"Hometown": "Knoxville, Tennessee"
 	},
 	{
 		"Name": "Dash Anderson",
@@ -158,7 +160,8 @@
 		"Signatures": ["UFO", "King of Swing"],
 		"Finishers": ["Neutralizer 2", "Sharpshooter 3"],
 		"Entrance": "Gold Medalist 1",
-		"Music": "Chad Gable"
+		"Music": "Chad Gable",
+		"Hometown": "Glen Ridge, New Jersey"
 	},
 	{
 		"Name": "El Phantasma",
@@ -168,7 +171,19 @@
 		"Signatures": ["Dudebuster", "Aztec Press"],
 		"Finishers": ["Metalik Driver", "450 Splash"],
 		"Entrance": "Rey Mysterio '06",
-		"Music": "Rey Mysterio '06"
+		"Music": "Rey Mysterio '06",
+		"Hometown": "Durango, Mexico"
+	},
+ 	{
+		"Name": "Gamora",
+		"Reaction": "Face",
+		"Male": false,
+		"Moveset": "-",
+		"Signatures": ["-", "-"],
+		"Finishers": ["-", "-"],
+		"Entrance": "-",
+		"Music": "-",
+		"Hometown": "-"
 	},
 	{
 		"Name": "Gary",
@@ -178,7 +193,8 @@
 		"Signatures": ["Middle Rope Elbow Drop 1", "Delayed Falling Fist Drop 1"],
 		"Finishers": ["The Million Dollar Dream", "Cobra Clutch 2"],
 		"Entrance": "JBL 2",
-		"Music": "JBL"
+		"Music": "JBL",
+		"Hometown": "San Antonio, Texas"
 	},
 	{
 		"Name": "Hana Yuki",
@@ -188,7 +204,8 @@
 		"Signatures": ["Spanish Fly", "Springboard 450 Splash"],
 		"Finishers": ["Tiger Suplex 4", "Rolling Thunder Facebreaker"],
 		"Entrance": "Nexus Original",
-		"Music": "Tegan Nox"
+		"Music": "Tegan Nox",
+		"Hometown": "Kyoto, Japan"
 	},
 	{
 		"Name": "Human Spider",
@@ -198,7 +215,8 @@
 		"Signatures": ["Running Hurricanrana 1", "Avalanche Bulldog"],
 		"Finishers": ["Salida Del Sol 1", "Dragon Twist Cutter"],
 		"Entrance": "Bayamons Finest",
-		"Music": "Candies 1"
+		"Music": "Candies 1",
+		"Hometown": "Queens, New York"
 	},
 	{
 		"Name": "Jason Voorhees",
@@ -208,7 +226,8 @@
 		"Signatures": ["Vise Grip 1", "Skull Tap"],
 		"Finishers": ["Jackhammer", "Pop-Up Gutwrench Suplex"],
 		"Entrance": "Braun Strowman 2",
-		"Music": "Braun Strowman"
+		"Music": "Braun Strowman",
+		"Hometown": "Parts Unknown"
 	},
 	{
 		"Name": "Jessica Blake",
@@ -218,7 +237,8 @@
 		"Signatures": ["Big Boot 10", "Blue Thunder Bomb"],
 		"Finishers": ["Styles Clash 1", "450 Splash"],
 		"Entrance": "Kacy Catanzaro",
-		"Music": "concert for aliens - Machine Gun Kelly"
+		"Music": "concert for aliens - Machine Gun Kelly",
+		"Hometown": "Seattle, Washington"
 	},
 	{
 		"Name": "Jinx",
@@ -228,7 +248,8 @@
 		"Signatures": ["Running Hip Attack 3", "Lariat"],
 		"Finishers": ["Last Shot 1", "Airplane Spin/TKO"],
 		"Entrance": "Asuka",
-		"Music": "Asuka"
+		"Music": "Asuka",
+		"Hometown": "The Edge Of Reality"
 	},
 	{
 		"Name": "Joe Cruise",
@@ -238,7 +259,8 @@
 		"Signatures": ["Chokeslam Backbreaker", ""],
 		"Finishers": ["Bridging Package Powerbomb", "End of Days 1"],
 		"Entrance": "Riddle",
-		"Music": "Riddle"
+		"Music": "Riddle",
+		"Hometown": "Miami, Florida"
 	},
 	{
 		"Name": "Johnny Knoxville",
@@ -248,7 +270,8 @@
 		"Signatures": ["Blue Thunder Bomb", "Torpedo DDT"],
 		"Finishers": ["Helluva Kick 1", "Big Boot 10"],
 		"Entrance": "The Living Legend 1",
-		"Music": "Sami Zayn"
+		"Music": "Sami Zayn",
+		"Hometown": "Knoxville, Tennessee"
 	},
 	{
 		"Name": "Joker",
@@ -258,7 +281,8 @@
 		"Signatures": ["Reality Check 1", "Throat Thrust 4"],
 		"Finishers": ["Dr Teeth", "Double Knee Facebreaker"],
 		"Entrance": "Seth Rollins 1",
-		"Music": "Seth Rollins"
+		"Music": "Seth Rollins",
+		"Hometown": "New York"
 	},
 	{
 		"Name": "Josh",
@@ -268,7 +292,8 @@
 		"Signatures": ["Inverted Suplex/Reverse DDT", "Dragon Sleeper 6"],
 		"Finishers": ["GTS 2", "Single Leg Knee Strike 1"],
 		"Entrance": "Murphy 2",
-		"Music": "The Other Side - Alter Bridge"
+		"Music": "The Other Side - Alter Bridge",
+		"Hometown": "Charlottesville, Virginia"
 	},
 	{
 		"Name": "King Alexander",
@@ -278,7 +303,8 @@
 		"Signatures": ["Torpedo Moscow 2", "BME"],
 		"Finishers": ["1916", "Front Flip DDT"],
 		"Entrance": "Baron Corbin",
-		"Music": "I Bring The Darkness - Baron Corbin"
+		"Music": "I Bring The Darkness - Baron Corbin",
+		"Hometown": "London, England"
 	},
 	{
 		"Name": "Kratos",
@@ -288,7 +314,8 @@
 		"Signatures": ["Top Rope Brainbuster", "Psycho Cutter"],
 		"Finishers": ["Kudo Driver", "Omega Driver"],
 		"Entrance": "Roman Reigns 1",
-		"Music": "Roman Reigns"
+		"Music": "Roman Reigns",
+		"Hometown": "Valhalla"
 	},
 	{
 		"Name": "Lamar",
@@ -298,7 +325,8 @@
 		"Signatures": ["Five Knuckle Shuffle 2", "STF 4"],
 		"Finishers": ["Attitude Adjustment 2", "Twist of Fate 1"],
 		"Entrance": "John Cena 1",
-		"Music": "John Cena"
+		"Music": "John Cena",
+		"Hometown": "Memphis, Tennessee"
 	},
 	{
 		"Name": "Luna Ivy",
@@ -308,7 +336,8 @@
 		"Signatures": ["Slingshot X-Factor", "Devlin Side 1"],
 		"Finishers": ["Basement Dropkick", "Diving Senton Bomb 1"],
 		"Entrance": "Cedric Alexander",
-		"Music": "Cedric Alexander"
+		"Music": "Cedric Alexander",
+		"Hometown": "San Juan, Puerto Rico"
 	},
 	{
 		"Name": "Martyr",
@@ -318,7 +347,8 @@
 		"Signatures": ["Iron Claw 1", "Teardrop Suplex Combo"],
 		"Finishers": ["Burning Hammer 1", "Torture Rack Bomb"],
 		"Entrance": "Reckoning",
-		"Music": "Riot of Violence - Kreator"
+		"Music": "Riot of Violence - Kreator",
+		"Hometown": "Sin City"
 	},
 	{
 		"Name": "Master Chief",
@@ -328,7 +358,8 @@
 		"Signatures": ["Wicked Stepsister 1", "Military Press Spinebuster"],
 		"Finishers": ["Feast Your Eyes 1", "Sharpshooter 3"],
 		"Entrance": "Goldberg",
-		"Music": "Goldberg"
+		"Music": "Goldberg",
+		"Hometown": "Out Of This World"
 	},
 	{
 		"Name": "Max",
@@ -338,7 +369,8 @@
 		"Signatures": ["Bearhug Spinebuster", "Spinebuster 4"],
 		"Finishers": ["Boss Man Slam", "Spinning Side Slam 3"],
 		"Entrance": "Big Boss Man 1",
-		"Music": "Big Boss Man"
+		"Music": "Big Boss Man",
+		"Hometown": "Nashville, Tennessee"
 	},
 	{
 		"Name": "Michael",
@@ -348,7 +380,8 @@
 		"Signatures": ["Spinebuster 6", "Figure 4 Leglock 7"],
 		"Finishers": ["Pedigree 2", "Pedigree 3"],
 		"Entrance": "Triple H",
-		"Music": "Triple H"
+		"Music": "Triple H",
+		"Hometown": "Knoxville, Tennessee"
 	},
 	{
 		"Name": "Miles Greene",
@@ -358,7 +391,8 @@
 		"Signatures": ["Butterfly DDT 2", "Northern Lights Suplex 4"],
 		"Finishers": ["Basement Back Kick", "Spiral Tap"],
 		"Entrance": "Isaiah Swerve Scott",
-		"Music": "Isaiah Swerve Scott"
+		"Music": "Isaiah Swerve Scott",
+		"Hometown": "Kansas City, Missouri"
 	},
 	{
 		"Name": "Moon Knight",
@@ -368,7 +402,8 @@
 		"Signatures": ["Fallaway Moonsault Slam", "German Suplex/Ripcord Lariat"],
 		"Finishers": ["Fairy Tale Ending", "Package Piledriver"],
 		"Entrance": "Munitions Specialist",
-		"Music": "Moon Knight - Hesham Nazih"
+		"Music": "Moon Knight - Hesham Nazih",
+		"Hometown": "Chicago, Illinois"
 	},
 	{
 		"Name": "Nacho Libre",
@@ -378,7 +413,8 @@
 		"Signatures": ["Avalanche Victory Roll", "Grand Backhand"],
 		"Finishers": ["Salida Del Sol 2", "Diving Headbutt 1"],
 		"Entrance": "Kalisto 1",
-		"Music": "I Am I Am - Nacho Libre Soundtrack"
+		"Music": "I Am I Am - Nacho Libre Soundtrack",
+		"Hometown": "Mexico"
 	},
 	{
 		"Name": "Overgiver",
@@ -388,7 +424,8 @@
 		"Signatures": ["Wing Clipper 1", "Sit-Out Alabama Slam"],
 		"Finishers": ["Sit-Out Crucifix Powerbomb", "Sister Abigail 4"],
 		"Entrance": "Robert Roode 1",
-		"Music": "Robert Roode"
+		"Music": "Robert Roode",
+		"Hometown": "Valhalla"
 	},
 	{
 		"Name": "Palpatine",
@@ -398,7 +435,8 @@
 		"Signatures": ["Facebuster 4", "Lawn Dart 1"],
 		"Finishers": ["Chokeslam 5", "Tongan Death Grip"],
 		"Entrance": "Undertaker",
-		"Music": "Undertaker"
+		"Music": "Undertaker",
+		"Hometown": "New York"
 	},
 	{
 		"Name": "Pepsi Man",
@@ -408,7 +446,8 @@
 		"Signatures": ["Hammerlock Lariat 2", "Superman Punch 1"],
 		"Finishers": ["Shooting Star 4", "Diving Elbow Drop 2"],
 		"Entrance": "The Living Legend 1",
-		"Music": "Pepsi Man Game Song"
+		"Music": "Pepsi Man Game Song",
+		"Hometown": "New York"
 	},
 	{
 		"Name": "Roxanne Fisher",
@@ -418,7 +457,8 @@
 		"Signatures": ["KTFO", "Murphy Combo"],
 		"Finishers": ["Fisherman Driver 2", "Kirifuda Driver"],
 		"Entrance": "Ronda Rousey",
-		"Music": "Shayna Baszler"
+		"Music": "Shayna Baszler",
+		"Hometown": "Copenhagen, Denmark"
 	},
 	{
 		"Name": "Scarlett",
@@ -428,7 +468,8 @@
 		"Signatures": ["Brainbuster 8", "Top Rope Brainbuster"],
 		"Finishers": ["Punt Kick", "Kairopractor"],
 		"Entrance": "Dakota Kai 1",
-		"Music": "Dakota Kai"
+		"Music": "Dakota Kai",
+		"Hometown": "Parts Unknown"
 	},
 	{
 		"Name": "Scott Roux",
@@ -438,7 +479,8 @@
 		"Signatures": ["X-Plex", "Forearm/Basement Haymaker"],
 		"Finishers": ["WMD", "Seven Star Lariat 2"],
 		"Entrance": "Pete Dunne",
-		"Music": "Pete Dunne"
+		"Music": "Pete Dunne",
+		"Hometown": "Queens, New York"
 	},
 	{
 		"Name": "Shaw Mercer",
@@ -448,7 +490,8 @@
 		"Signatures": ["Angle Slam 1", "F-5 3"],
 		"Finishers": ["Vertical Suplex Powerbomb", "Tombstone Piledriver 2"],
 		"Entrance": "Brock Lesnar",
-		"Music": "Brock Lesnar"
+		"Music": "Brock Lesnar",
+		"Hometown": "The Edge Of Reality"
 	},
 	{
 		"Name": "Shego",
@@ -458,7 +501,8 @@
 		"Signatures": ["Bayley To Belly Suplex", "Avalanche Bayley To Belly"],
 		"Finishers": ["Taste of Pain", "DDT 4"],
 		"Entrance": "Bayley 1",
-		"Music": "Bayley"
+		"Music": "Bayley",
+		"Hometown": "Every Man's Nightmare"
 	},
 	{
 		"Name": "Sheik",
@@ -468,7 +512,8 @@
 		"Signatures": ["Avalanche Falcon Arrow", "Backflip DDT"],
 		"Finishers": ["Cave-In", "630 Senton"],
 		"Entrance": "Rey Mysterio Jr",
-		"Music": "Rey Mysterio Jr"
+		"Music": "Rey Mysterio Jr",
+		"Hometown": "The United Kingdom"
 	},
 	{
 		"Name": "Shroud",
@@ -478,7 +523,8 @@
 		"Signatures": ["Playmaker", "Superkick 5"],
 		"Finishers": ["Skull Crushing Finale", "The Stomp 1"],
 		"Entrance": "The Miz '11",
-		"Music": "The Miz"
+		"Music": "The Miz",
+		"Hometown": "Toronto, Ontario"
 	},
 	{
 		"Name": "SMAB",
@@ -488,7 +534,8 @@
 		"Signatures": ["German Suplex 5", "F10"],
 		"Finishers": ["The Last Ride 1", "Avalanche Powerbomb"],
 		"Entrance": "Andre The Giant",
-		"Music": "Andre The Giant"
+		"Music": "Andre The Giant",
+		"Hometown": "Your Darkest Fears"
 	},
 	{
 		"Name": "Sofia Lacasa",
@@ -498,7 +545,8 @@
 		"Signatures": ["Insult to Injury 2", "Code of Silence"],
 		"Finishers": ["Wheelbarrow Facebuster 2", "Sunset Flip Powerbomb 1"],
 		"Entrance": "Carmella 1",
-		"Music": "Carmella"
+		"Music": "Carmella",
+		"Hometown": "Durango, Mexico"
 	},
  	{
 		"Name": "Spider-Gwen",
@@ -508,7 +556,8 @@
 		"Signatures": ["Royal Butterfly", "Rolling Thunder"],
 		"Finishers": ["Springboard Shooting Star", "The Shiniest Wizard"],
 		"Entrance": "Mustafa Ali 2",
-		"Music": "Mustafa Ali"
+		"Music": "Mustafa Ali",
+		"Hometown": "Queens, New York"
  	},
 	{
 		"Name": "Taylor Storm",
@@ -518,7 +567,8 @@
 		"Signatures": ["Rope Hung Lungblower", "Roundhouse Kick 12"],
 		"Finishers": ["Superkick 14", "Triangle Armbar 1"],
 		"Entrance": "Trish Stratus",
-		"Music": "Trish Stratus"
+		"Music": "Trish Stratus",
+		"Hometown": "Toronto, Ontario"
 	},
 	{
 		"Name": "Trey",
@@ -528,7 +578,8 @@
 		"Signatures": ["Dominator 1", "Spinebuster 9"],
 		"Finishers": ["Spear 11", "Yokosuka Cutter 2"],
 		"Entrance": "Bobby Lashley 2",
-		"Music": "Heartless - The Weeknd"
+		"Music": "Heartless - The Weeknd",
+		"Hometown": "Charleston, South Carolina"
 	},
 	{
 		"Name": "Tyrone",
@@ -538,7 +589,8 @@
 		"Signatures": ["Spinebuster 11", "Peoples Elbow"],
 		"Finishers": ["Rock Bottom 1", "Hurricanrana Driver"],
 		"Entrance": "The Rock",
-		"Music": "The Rock"
+		"Music": "The Rock",
+		"Hometown": "Dudleyville"
 	},
 	{
 		"Name": "Valkyrie",
@@ -548,7 +600,8 @@
 		"Signatures": ["Helluva Kick 1", "Bankrupt"],
 		"Finishers": ["Revolution Knee 2", "Revolution Knee 1"],
 		"Entrance": "Knight Rider",
-		"Music": "A-Kid"
+		"Music": "A-Kid",
+		"Hometown": "Helsinki, Finland"
 	},
 		{
 		"Name": "Willow",
@@ -558,7 +611,8 @@
 		"Signatures": ["South of Heaven", "Spinebuster 16"],
 		"Finishers": ["Spirit Bomb", "Burning Hammer 2"],
 		"Entrance": "Mia Yim",
-		"Music": "Olivia Rodrigo - good 4 u (Instrumental)"
+		"Music": "Olivia Rodrigo - good 4 u (Instrumental)",
+		"Hometown": "Las Vegas, Nevada"
 	},
 	{
 		"Name": "Wonder Woman",
@@ -568,6 +622,7 @@
 		"Signatures": ["Tilt-A-Whirl Slam 2", "Elevated Wristlock"],
 		"Finishers": ["Superman Punch / Spear Combo", "Glam Slam 2"],
 		"Entrance": "Beth Phoenix",
-		"Music": "Beth Phoenix"
+		"Music": "Beth Phoenix",
+		"Hometown": "Mount Olympus"
 	}
 ]
