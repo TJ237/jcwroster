@@ -1,0 +1,53 @@
+[
+	{
+		"Name": "JCW Championship",
+		"Img": "",
+		"Current": "Clag",
+		"History": [
+			"VACANT",
+			"Josh",
+			"Chad Thundercock",
+			"Josh",
+			"Trey",
+			"Clag",
+			"Trey",
+			"Josh"
+		]
+	},
+	{
+		"Name": "Women's Championship",
+		"Img": "",
+		"Current": "Blaire",
+		"History": [
+			"Sheik",
+			"Blaire"
+		]
+	},
+	{
+		"Name": "North American Championship",
+		"Img": "",
+		"Current": "Tyrone",
+		"History": [
+			"Michael (0)",
+			"VACANT",
+			"Alexander Moore (3)",
+			"Dash Anderson (1)",
+			"Pepsi Man (1)",
+			"Clag (0)",
+			"Pepsi Man (0)",
+			"Chad Thundercock (1)",
+			"Trey (0)",
+			"Gary (2)",
+			"Clag (0)"
+		]
+	},
+	{
+		"Name": "United States Championship",
+		"Img": "",
+		"Current": "VACANT",
+		"History": [
+			"Luna Ivy (3)",
+			"Scarlett (2)"
+		]
+	}
+]

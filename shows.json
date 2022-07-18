@@ -2,9 +2,45 @@
   "seasons": [
     {
       "ppvs": [
+		{
+			"Name": "Clash of Champions",
+			"Color": "gold",
+			"URL": "",
+			"Matches": [
+				"Blaire (c) vs Valkyrie | Women's Championship",
+				"Tyrone (c) vs Jason Voorhees vs Trey | Triple Threat | North American Championship",
+				"Amanda Diaz vs CJ Lee vs Jessica Blake vs Roxanne Fisher vs Spider-Gwen vs Wonder Woman | 6-Woman Battle Royal | United States Championship",
+				"Clag (c) vs King Alexander | JCW Championship"
+			]
+		},
+		{
+			"Name": "Survivor Series",
+			"Color": "red",
+			"URL": "https://www.youtube.com/watch?v=78ZWxtxS0Lg",
+			"Matches": [
+				"Team Blaire (c) def. Team Luna | 3v3 Survival Match | US Title Trade-In | Women's Championship",
+				"Prince Alexander def. Miles Greene | King of the Ring Finals | JCW Title match at Clash of Champions",
+				"Tyrone (c) def. Batman | 10-Minute Time Limit | North American Championship",
+				"Valkyrie def. Alice Hart | Queen of the Ring Finals | Women's Title match at Clash of Champions",
+				"Team Clag def. Team Trey | 4v4 Survival Match | JCW Championship"
+			]
+		},
+		{
+        	"Name": "Halloween Havoc",
+        	"Color": "orange",
+			"URL": "",
+        	"Matches": [
+            	"Luna Ivy (c) def. Scarlett | 10-Minute Time Limit | United States Championship",
+				"Tyrone (c) def. Overgiver | 10-Minute Time Limit | North American Championship",
+				"Clag def. Pepsi Man | Trick or Street Fight | Winner leads a Survivor Series team",
+				"Boogeyman def. Nacho Libre",
+				"Blaire (c) def. Sheik | Steel Cage | Women's Championship"
+        	]
+        },
         {
           "Name": "Destination X",
           "Color": "purple",
+		  "URL": "https://www.youtube.com/watch?v=T_FVhI4jaCw",
           "Matches": [
               "Josh (c) def. Dash Anderson | World Championship",
               "Luna Ivy (c) def. CJ Lee | Ladder Match | United States Championship",
@@ -17,6 +53,7 @@
         {
           "Name": "SummerSlam",
           "Color": "lightblue",
+		  "URL": "https://www.youtube.com/watch?v=GdI2S_aI49Q",
           "Matches": [
               "Michael def. Kratos, Overgiver, Palpatine, Shroud, SMAB | 6-Man Battle Royal | North American Championship",
               "Luna Ivy (c) def. Sofia Lacasa, Jessica Blake | Triple Threat Elimination Tables Match | United States Championship",
@@ -28,6 +65,7 @@
         {
           "Name": "NXT Super Tuesday",
           "Color": "yellow",
+		  "URL": "https://www.youtube.com/watch?v=J3mkeF2hHMQ",
           "Matches": [
               "Clag def. Overgiver",
               "Bombshell def. Aloy | Women's Money in the Bank Briefcase",
@@ -38,6 +76,7 @@
         {
           "Name": "Great American Bash",
           "Color": "red",
+		  "URL": "https://www.youtube.com/watch?v=16zc_zLcpos",
           "Matches": [
               "Clag def. Trey | 15-Minute Iron Man Match | #1 Contender for World Championship",
               "Sheik def. CJ Lee, Hana Yuki, Sofia Lacasa, Taylor Storm | 5-Woman Battle Royal | #1 Contender for Women's Championship",
@@ -50,6 +89,7 @@
         {
           "Name": "Londons Calling",
           "Color": "gray",
+		  "URL": "https://www.youtube.com/watch?v=_gDZ9CBEuoI",
           "Matches": [
               "Blaire (c) vs Shego | Women's Championship",
               "Alexander Moore (c) def. Johnny Knoxville | 10-Minute Time Limit | Intercontinental Championship",
@@ -60,6 +100,7 @@
         {
           "Name": "Mixed Match Challenge",
           "Color": "darkred",
+		  "URL": "https://www.youtube.com/watch?v=WtvJeYlUGrA",
           "Matches": [
               "Aloy def. Ahsoka Tano, Bombshell, Jessica Blake | Women's Money in the Bank Ladder Match",
               "Scarlett (c) def. Luna Ivy | Extreme Rules Match | United States Championship",

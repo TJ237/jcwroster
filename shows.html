@@ -13,7 +13,7 @@
 		<option>Season 2</option>
 	</select>
 
-  <<div id="new"></div>
+  <div id="new"></div>
 
   </body>
 
@@ -26,11 +26,14 @@
       var s = document.getElementById("seasons").selectedIndex;
       var ppvs = myData["seasons"][s]["ppvs"];
 
-      //console.log( ppvs.length );
-
       for (i = 0; i < ppvs.length; i++)
   		{
         // Stuff
+		var a = document.createElement("a");
+		a.href = ppvs[i].URL, "_blank";
+		a.target = "_blank";
+		a.style = "text-decoration:none;";
+
         var tag = document.createElement("h1");
         tag.innerHTML = ppvs[i].Name;
         tag.style = "color: " + ppvs[i].Color + "; border-color: " + ppvs[i].Color;
@@ -46,16 +49,15 @@
           tag.appendChild(match);
         }
 
-        document.getElementById("new").appendChild(tag);
+		a.appendChild(tag);
+        document.getElementById("new").appendChild(a);
   		}
     }
 
     async function loadShows()
   	{
-  		const response = await fetch("Shows.json?v=1.1");
+  		const response = await fetch("Shows.json?v=1.2");
   		const json = await response.text();
-  		//console.log(json);
-
   		myData = JSON.parse(json);
 
       changeSeason();
