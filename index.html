@@ -70,6 +70,11 @@
 		document.getElementById("name").innerHTML = "<b>" + myData[charButton].Name + "</b>";
 		document.getElementById("reaction").innerHTML = myData[charButton].Reaction;
 
+		if (myData[charButton].Render)
+			document.getElementById("pic").src = myData[charButton].Render;
+		else
+			document.getElementById("pic").src = "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Vacant.png";
+
 		if (myData[charButton].Hometown)
 			document.getElementById("hometown").innerHTML = 
 				"From " + myData[charButton].Hometown;

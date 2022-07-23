@@ -1,5 +1,6 @@
 [{
 		"Name": "Ahsoka Tano",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Ahsoka.jpg",
 		"Reaction": "Face",
 		"Male": false,
 		"Moveset": "Bayley",
