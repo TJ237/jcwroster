@@ -78,6 +78,7 @@
 	},
 	{
 		"Name": "Blaire",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Blaire.jpg",
 		"Reaction": "Heel",
 		"Male": false,
 		"Moveset": "-",
@@ -144,6 +145,7 @@
 	},
 	{
 		"Name": "Clag",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Clag.jpg",
 		"Reaction": "Heel",
 		"Male": true,
 		"Moveset": "Rey Mysterio",
@@ -188,6 +190,7 @@
 	},
 	{
 		"Name": "Gary",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Gary.jpg",
 		"Reaction": "Heel",
 		"Male": true,
 		"Moveset": "JBL",
@@ -287,6 +290,7 @@
 	},
 	{
 		"Name": "Josh",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Josh.jpg",
 		"Reaction": "Heel",
 		"Male": true,
 		"Moveset": "Custom",
@@ -375,6 +379,7 @@
 	},
 	{
 		"Name": "Michael",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Michael.jpg",
 		"Reaction": "Heel",
 		"Male": true,
 		"Moveset": "Triple H",
@@ -573,6 +578,7 @@
 	},
 	{
 		"Name": "Trey",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Trey.jpg",
 		"Reaction": "Face",
 		"Male": true,
 		"Moveset": "Bobby Lashley",
@@ -584,6 +590,7 @@
 	},
 	{
 		"Name": "Tyrone",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Tyrone.jpg",
 		"Reaction": "Face",
 		"Male": true,
 		"Moveset": "Ricochet",
