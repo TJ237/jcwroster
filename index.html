@@ -15,7 +15,9 @@
 	<p><img class="portrait" src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Vacant.png" alt="" width="250" height="250" id="pic" /></p>
 	<p id="name" style="text-align: center; font-size:30px;"><b>NAME</b></p>
 	<p id="reaction" style="text-align: center;">FACE/HEEL</p>
+
 	<p id="hometown" style="text-align: center;">HOMETOWN</p>
+	<p id="height" style="text-align: center;">HEIGHT</p>
 
 	<p id="moveset" style="text-align: center;"><b>BASE MOVE SET</b><br /></p>
 	<p id="signatures" style="text-align: center;"><b>SIGNATURES</b><br /></p>
@@ -81,6 +83,12 @@
 		else
 			document.getElementById("hometown").innerHTML = "";
 		
+		if (myData[charButton].Height)
+			document.getElementById("height").innerHTML = "Height: " 
+				+ myData[charButton].Height + "\"";
+		else
+			document.getElementById("height").innerHTML = "Height: Unlisted";
+		
 		document.getElementById("moveset").innerHTML = "<b>BASE MOVE SET</b><br />"
 		document.getElementById("moveset").innerHTML += myData[charButton].Moveset;
 		
@@ -101,7 +109,7 @@
 
 	async function loadTest()
 	{
-		const response = await fetch("roster.json?v=1.81");
+		const response = await fetch("roster.json?v=1.82");
 		const json = await response.text();
 		//console.log(json);
 		
