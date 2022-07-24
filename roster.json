@@ -183,7 +183,7 @@
 	{
 		"Name": "Dash Anderson",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/DashAnderson.jpg",
-		"Reaction": "Face",
+		"Reaction": "Heel",
 		"Male": true,
 		"Height": "5'11",
 		"Moveset": "Cesaro",
@@ -241,8 +241,8 @@
 		"Moveset": "Io Shirai",
 		"Signatures": ["Spanish Fly", "Springboard 450 Splash"],
 		"Finishers": ["Tiger Suplex 4", "Rolling Thunder Facebreaker"],
-		"Entrance": "Nexus Original",
-		"Music": "Tegan Nox",
+		"Entrance": "Sarray",
+		"Music": "Sarray",
 		"Hometown": "Kyoto, Japan"
 	},
 	{
@@ -343,7 +343,7 @@
 		"Male": true,
 		"Height": "6'2",
 		"Moveset": "Custom",
-		"Signatures": ["Inverted Suplex/Reverse DDT", "Dragon Sleeper 6"],
+		"Signatures": ["The Stomp 1", "Dragon Sleeper 6"],
 		"Finishers": ["GTS 2", "Single Leg Knee Strike 1"],
 		"Entrance": "Murphy 2",
 		"Music": "The Other Side - Alter Bridge",
@@ -690,7 +690,7 @@
 	{
 		"Name": "Tyrone",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Tyrone.jpg",
-		"Reaction": "Face",
+		"Reaction": "Heel",
 		"Male": true,
 		"Height": "5'5",
 		"Moveset": "Ricochet",
@@ -722,8 +722,8 @@
 		"Moveset": "-",
 		"Signatures": ["South of Heaven", "Spinebuster 16"],
 		"Finishers": ["Spirit Bomb", "Burning Hammer 2"],
-		"Entrance": "Mia Yim",
-		"Music": "Olivia Rodrigo - good 4 u (Instrumental)",
+		"Entrance": "Twin Magic 1",
+		"Music": "Beautiful Life - Brie Bella",
 		"Hometown": "Las Vegas, Nevada"
 	},
 	{
