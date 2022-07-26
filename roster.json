@@ -194,6 +194,19 @@
 		"Hometown": "Glen Ridge, New Jersey"
 	},
 	{
+		"Name": "Doom",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Doom.jpg",
+		"Reaction": "Heel",
+		"Male": true,
+		"Height": "6'2",
+		"Moveset": "-",
+		"Signatures": ["-", "-"],
+		"Finishers": ["-", "-"],
+		"Entrance": "-",
+		"Music": "-",
+		"Hometown": "Overseas"
+	},
+	{
 		"Name": "El Phantasma",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/ElPhantasma.jpg",
 		"Reaction": "Face",
@@ -205,19 +218,6 @@
 		"Entrance": "Rey Mysterio '06",
 		"Music": "Rey Mysterio '06",
 		"Hometown": "Durango, Mexico"
-	},
- 	{
-		"Name": "Gamora",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Gamora.jpg",
-		"Reaction": "Face",
-		"Male": false,
-		"Height": "5'8",
-		"Moveset": "-",
-		"Signatures": ["-", "-"],
-		"Finishers": ["-", "-"],
-		"Entrance": "-",
-		"Music": "-",
-		"Hometown": "-"
 	},
 	{
 		"Name": "Gary",
