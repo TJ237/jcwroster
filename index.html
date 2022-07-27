@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-	<link rel="stylesheet" href="styles.css?v=1.1">
+	<link rel="stylesheet" href="styles.css?v=1.2">
 	<title>JCW Roster</title>
 	
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
@@ -8,9 +8,20 @@
 	<meta http-equiv="Expires" content="0" />
 </head>
 <body onload="loadTest()">
+
+	<div class="filter-container">
+		<p2>Male</p2> <input type="checkbox" id="maleFilter" onchange="setFilter();">
+		<p2>Female</p2> <input type="checkbox" id="femaleFilter" onchange="setFilter();">
+	</div>
+
 	<select class="center" name="names" id="names" onchange="setData();">
 		<option value="" disabled selected>Roster</option>
 	</select>
+
+	<div class="filter-container">
+		<p2>Face</p2> <input type="checkbox" id="faceFilter" onchange="setFilter();">
+		<p2>Heel</p2> <input type="checkbox" id="heelFilter" onchange="setFilter();">
+	</div>
 
 	<p><img class="portrait" src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Vacant.png" alt="" width="250" height="250" id="pic" /></p>
 	<p id="name" style="text-align: center; font-size:30px;"><b>NAME</b></p>
@@ -49,6 +60,47 @@
 </body>
 
 <script>
+	function setFilter ()
+	{
+		var rosterList = document.getElementById("names");
+
+		var maleFilter = document.getElementById("maleFilter").checked;
+		var femaleFilter = document.getElementById("femaleFilter").checked;
+		var faceFilter = document.getElementById("faceFilter").checked;
+		var heelFilter = document.getElementById("heelFilter").checked;
+
+		var gFilter = 0;
+			if (maleFilter && !femaleFilter) gFilter = 1;
+			else if (!maleFilter && femaleFilter) gFilter = 2;
+
+		var rFilter = 0;
+			if (faceFilter && !heelFilter) rFilter = 1;
+			else if (!faceFilter && heelFilter) rFilter = 2;
+
+		for (i = 1; i < rosterList.length; i++)
+		{
+			if (maleFilter == femaleFilter && faceFilter == heelFilter)
+			{
+				rosterList[i].style.display = 'block';
+				continue;
+			}
+
+			var gMatch = false;
+			if (gFilter == 0 || myData[i-1].Male && gFilter == 1 || !myData[i-1].Male && gFilter == 2)
+				gMatch = true;
+			
+			var rMatch = false;
+			if (rFilter == 0 || myData[i-1].Reaction == "Face" && rFilter == 1 
+				|| myData[i-1].Reaction == "Heel" && rFilter == 2)
+				rMatch = true;
+
+			if (gMatch && rMatch)
+				rosterList[i].style.display = 'block';
+			else
+				rosterList[i].style.display = 'none';
+		}
+	}
+
 	function showHideMusic()
 	{
 		var element = document.getElementById("music");
@@ -109,7 +161,7 @@
 
 	async function loadTest()
 	{
-		const response = await fetch("roster.json?v=1.86");
+		const response = await fetch("roster.json?v=1.8.7");
 		const json = await response.text();
 		//console.log(json);
 		
