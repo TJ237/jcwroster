@@ -39,11 +39,11 @@
 
 	<br>
 	<p style="margin-top: 10%;">
-		<b>Current Champions</b> <i>(post Royal Rumble)</i> <br>
-		<b>JCW Champion:</b> Clag <br>
+		<b>Current Champions</b> <i>(post Vengeance Day)</i> <br>
+		<b>JCW Champion:</b> The Overgiver <br>
 		<b>Women's Champion:</b> Willow <br>
-		<b>North American Champion:</b> Trey <i>(1)</i> <br>
-		<b>United States Champion:</b> Wonder Woman <i>(0)</i> <br>
+		<b>North American Champion:</b> Trey <i>(2)</i> <br>
+		<b>United States Champion:</b> Wonder Woman <i>(1)</i> <br>
 	</p>
 
 	<p onclick="showHideMusic()" 
@@ -161,7 +161,7 @@
 
 	async function loadTest()
 	{
-		const response = await fetch("roster.json?v=1.8.7");
+		const response = await fetch("roster.json?v=1.8.8");
 		const json = await response.text();
 		//console.log(json);
 		

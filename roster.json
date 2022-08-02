@@ -96,11 +96,11 @@
 		"Male": false,
 		"Height": "5'2",
 		"Moveset": "-",
-		"Signatures": ["STF Camel Clutch 1", "Slingblade & Basement Dropkick"],
-		"Finishers": ["Sister Abigail 4", "Torture Rack Back Stabber 1"],
-		"Entrance": "Bad Attitude",
-		"Music": "Shotzi",
-		"Hometown": "Portland, Oregon"
+		"Signatures": ["Running Knee Lift 4", "Prism Trap"],
+		"Finishers": ["Guillotine Choke 3", "Sliding Knee Strike"],
+		"Entrance": "Welcome to the Wasteland 2",
+		"Music": "-",
+		"Hometown": "The Wasteland"
 	},
 	{
 		"Name": "Bombshell",
@@ -202,8 +202,8 @@
 		"Moveset": "-",
 		"Signatures": ["-", "-"],
 		"Finishers": ["-", "-"],
-		"Entrance": "-",
-		"Music": "-",
+		"Entrance": "Kane 1",
+		"Music": "Slow Chemical - Finger Eleven",
 		"Hometown": "Overseas"
 	},
 	{
@@ -218,6 +218,19 @@
 		"Entrance": "Rey Mysterio '06",
 		"Music": "Rey Mysterio '06",
 		"Hometown": "Durango, Mexico"
+	},
+	{
+		"Name": "Eli Williams",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/EliWilliams.jpg",
+		"Reaction": "Heel",
+		"Male": true,
+		"Height": "5'11",
+		"Moveset": "-",
+		"Signatures": ["-", "-"],
+		"Finishers": ["-", "-"],
+		"Entrance": "Austin Theory",
+		"Music": "Austin Theory",
+		"Hometown": "Great Falls, Montana"
 	},
 	{
 		"Name": "Gary",
@@ -259,6 +272,19 @@
 		"Hometown": "Queens, New York"
 	},
 	{
+		"Name": "Jade Pierce",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/JadePierce.jpg",
+		"Reaction": "Face",
+		"Male": false,
+		"Height": "5'2",
+		"Moveset": "-",
+		"Signatures": ["-", "-"],
+		"Finishers": ["-", "-"],
+		"Entrance": "-",
+		"Music": "-",
+		"Hometown": "Chicago, Illinois"
+	},
+	{
 		"Name": "Jason Voorhees",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/JasonVoorhees.jpg",
 		"Reaction": "Heel",
@@ -274,14 +300,14 @@
 	{
 		"Name": "Jessica Blake",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/JessicaBlake.jpg",
-		"Reaction": "Face",
+		"Reaction": "Heel",
 		"Male": false,
 		"Height": "5'11",
 		"Moveset": "Custom",
-		"Signatures": ["Big Boot 10", "Blue Thunder Bomb"],
-		"Finishers": ["Styles Clash 1", "450 Splash"],
-		"Entrance": "Kacy Catanzaro",
-		"Music": "concert for aliens - Machine Gun Kelly",
+		"Signatures": ["High Angle Exploder Suplex", "Cyclone Kick 3"],
+		"Finishers": ["Vertebreaker", "Coup de Grace"],
+		"Entrance": "Indi Hartwell",
+		"Music": "What You Get - Zoey Stark",
 		"Hometown": "Seattle, Washington"
 	},
 	{
@@ -343,8 +369,8 @@
 		"Male": true,
 		"Height": "6'2",
 		"Moveset": "Custom",
-		"Signatures": ["The Stomp 1", "Dragon Sleeper 6"],
-		"Finishers": ["GTS 2", "Single Leg Knee Strike 1"],
+		"Signatures": ["Single Leg Knee Strike 1", "Dragon Sleeper 6"],
+		"Finishers": ["GTS 2", "Kamigoye 1"],
 		"Entrance": "Murphy 2",
 		"Music": "The Other Side - Alter Bridge",
 		"Hometown": "Charlottesville, Virginia"
@@ -720,8 +746,8 @@
 		"Male": false,
 		"Height": "5'8",
 		"Moveset": "-",
-		"Signatures": ["South of Heaven", "Spinebuster 16"],
-		"Finishers": ["Spirit Bomb", "Burning Hammer 2"],
+		"Signatures": ["Alpamare Waterslide", "Burning Hammer 2"],
+		"Finishers": ["Spirit Bomb", "Burning Hammer 4"],
 		"Entrance": "Twin Magic 1",
 		"Music": "Beautiful Life - Brie Bella",
 		"Hometown": "Las Vegas, Nevada"
