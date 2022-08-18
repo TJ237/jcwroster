@@ -1,0 +1,62 @@
+[
+	{
+		"Title": "Triple Crown Champion",
+		"Current": "Josh",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/TripleCrownTitle.png",
+		"History": [
+			"Clag",
+			"Overgiver",
+			"Clag",
+			"VACANT",
+			"Josh",
+			"Chad Thundercock",
+			"Josh",
+			"Trey",
+			"Clag",
+			"Trey",
+			"Josh"
+		]
+	},
+	{
+		"Title": "Women's Champion",
+		"Current": "Valkyrie",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/WomensTitle.png",
+		"History": [
+			"Willow",
+			"Bombshell",
+			"Blaire",
+			"Sheik",
+			"Blaire"
+		]
+	},
+	{
+		"Title": "Intercontinental Champion",
+		"Current": "Vacant",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/IntercontinentalTitle.png",
+		"History": [
+			"Trey - 3",
+			"Tyrone - 2",
+			"Michael - 0",
+			"Alexander Moore - 3",
+			"Dash Anderson - 1",
+			"Pepsi Man - 1",
+			"Clag - 0",
+			"Pepsi Man - 0",
+			"Chad Thundercock - 1",
+			"Trey - 0",
+			"Gary - 2",
+			"Clag - 0"
+		]
+	},
+	{
+		"Title": "United States Champion",
+		"Current": "Catwoman - 0",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/UnitedStatesTitle.png",
+		"History": [
+			"Alice Hart - 0",
+			"Wonder Woman - 1",
+			"Luna Ivy - 3",
+			"Scarlett - 2"
+		]
+	}
+]

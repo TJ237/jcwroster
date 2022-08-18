@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <head>
-	<link rel="stylesheet" href="styles.css?v=1.2">
+	<link rel="stylesheet" href="styles.css?v=1.3">
 	<title>JCW Roster</title>
 	
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
 </head>
+
+<header>
+	<span class="header-container">
+		<a href="index.html"> <h3>ROSTER</h3> </a>
+		<a href="factions.html"> <h3>FACTIONS</h3> </a>
+		<a href="champions.html"> <h3>CHAMPIONS</h3> </a>
+		<a href="shows.html"> <h3>SHOWS</h3> </a>
+	</span>
+</header>
+
 <body onload="loadTest()">
 
 	<div class="filter-container">
@@ -38,13 +48,6 @@
 	<p id="entmusic" style="text-align: center;"><b>ENTRANCE MUSIC</b><br /></p>
 
 	<br>
-	<p style="margin-top: 10%;">
-		<b>Current Champions</b> <i>(post Vengeance Day)</i> <br>
-		<b>JCW Champion:</b> The Overgiver <br>
-		<b>Women's Champion:</b> Willow <br>
-		<b>North American Champion:</b> Trey <i>(2)</i> <br>
-		<b>United States Champion:</b> Wonder Woman <i>(1)</i> <br>
-	</p>
 
 	<p onclick="showHideMusic()" 
 		style="margin-top: 5%; margin-bottom: 0; background-color: dimgray; cursor: pointer;">
@@ -161,7 +164,7 @@
 
 	async function loadTest()
 	{
-		const response = await fetch("roster.json?v=1.8.9");
+		const response = await fetch("roster.json?v=1.9.0");
 		const json = await response.text();
 		//console.log(json);
 		

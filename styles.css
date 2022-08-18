@@ -18,6 +18,33 @@ h2 {
 	margin-right: auto;
 }
 
+h3 {
+	color: white;
+	font-family: verdana;
+	display: inline;
+	margin: 0 1em;
+	font-size: 1.15em;
+}
+
+h3:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+h4 {
+	color: white;
+	font-family: verdana;
+	display: inline;
+	font-size: 1.15em;
+}
+
+.header-container {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	display: block;
+	text-align: center;
+}
+
 p {
 	font-family: verdana;
 	font-size: 20px;
@@ -120,4 +147,45 @@ select {
 	align-items: center;
 	align-content: center;
 	text-align: center;
+}
+
+.all-champions-container {
+	display: inline;
+}
+
+.champion-container {
+	display: block;
+	margin: 1em 1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.title-render {
+	margin: 1.5em 0;
+}
+
+.title-history {
+	font-size: .75em;
+	margin: 0;
+	cursor: pointer;
+	user-select: none;
+	text-decoration: underline;
+}
+
+p3 {
+	font-size: .8em;
+	margin: 0;
+	margin-top: .5em;
+	display: block;
+	color: white;
+	font-family: Verdana;
+}
+
+p4 {
+	color: white;
+	font-family: verdana;
+	display: inline;
+	margin: 0 1em;
+	font-size: 1.15em;
+	font-weight: bold;
 }
