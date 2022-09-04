@@ -1,7 +1,7 @@
 [{
 		"Name": "Ahsoka Tano",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Ahsoka.jpg",
-		"Reaction": "Face",
+		"Reaction": "Heel",
 		"Male": false,
 		"Height": "5'2",
 		"Moveset": "Bayley",
@@ -52,19 +52,6 @@
 		"Hometown": "Atlanta, Georgia"
 	},
 	{
-		"Name": "Amerist",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Amerist.jpg",
-		"Reaction": "Heel",
-		"Male": true,
-		"Height": "6'4",
-		"Moveset": "Kane '08",
-		"Signatures": ["Sidewalk Slam 2", "Falling Powerbomb"],
-		"Finishers": ["Chokeslam 4", "Tombstone Piledriver 2"],
-		"Entrance": "Marcel Barthel",
-		"Music": "Imperium",
-		"Hometown": "Phoenix, Arizona"
-	},
-	{
 	   "Name": "Azula",
 	   "Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Azula.jpg",
 	   "Reaction": "Heel",
@@ -73,22 +60,9 @@
 	   "Moveset": "-",
 	   "Signatures": ["-", "-"],
 	   "Finishers": ["-", "-"],
-	   "Entrance": "-",
+	   "Entrance": "Stephanie McMahon",
 	   "Music": "-",
 	   "Hometown": "The Queen City"
-	},
-	{
-		"Name": "Bad Bunny",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/BadBunny.jpg",
-		"Reaction": "Face",
-		"Male": true,
-		"Height": "5'11",
-		"Moveset": "Eddie Guerrero '97",
-		"Signatures": ["Hurricanrana 2", "Gory Bomb"],
-		"Finishers": ["Flip Piledriver", "The Reckoning"],
-		"Entrance": "Alpha Omega",
-		"Music": "Booker T - Bad Bunny",
-		"Hometown": "San Juan, Puerto Rico"
 	},
 	{
 		"Name": "Batman",
@@ -113,7 +87,7 @@
 		"Moveset": "-",
 		"Signatures": ["", ""],
 		"Finishers": ["", ""],
-		"Entrance": "-",
+		"Entrance": "Otis",
 		"Music": "-",
 		"Hometown": "Los Angeles, California"
 	},
@@ -124,11 +98,11 @@
 		"Male": false,
 		"Height": "5'2",
 		"Accolades": ["First Womens Champion"],
-		"Moveset": "-",
+		"Moveset": "Custom",
 		"Signatures": ["Running Knee Lift 4", "Prism Trap"],
 		"Finishers": ["Guillotine Choke 3", "Sliding Knee Strike"],
-		"Entrance": "Welcome to the Wasteland 2",
-		"Music": "-",
+		"Entrance": "Fear Her",
+		"Music": "Antichrist - Dissection",
 		"Hometown": "The Wasteland"
 	},
 	{
@@ -171,19 +145,6 @@
 		"Entrance": "Mr McMahon",
 		"Music": "Mr McMahon",
 		"Hometown": "Chad"
-	},
-	{
-		"Name": "Chris Anderson",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/ChrisAnderson.jpg",
-		"Reaction": "Face",
-		"Male": true,
-		"Height": "5'11",
-		"Moveset": "Stone Cold",
-		"Signatures": ["3:16 Thesz Press", "Corner Trapped Knee Lifts 2"],
-		"Finishers": ["Thrill of the Hunt", "Riptide"],
-		"Entrance": "Cactus Jack",
-		"Music": "Cactus Jack",
-		"Hometown": "Amarillo, Texas"
 	},
 	{
 		"Name": "CJ Lee",
@@ -266,6 +227,19 @@
 		"Hometown": "Great Falls, Montana"
 	},
 	{
+		"Name": "?#$#^#?",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Vacant.jpg",
+		"Reaction": "@@@@@@@@@",
+		"Male": true,
+		"Height": "@@@@@@@@@",
+		"Moveset": "@@@@@@@@@",
+		"Signatures": ["@@@@@@@@@", "@@@@@@@@@"],
+		"Finishers": ["@@@@@@@@@", "@@@@@@@@@"],
+		"Entrance": "@@@@@@@@@",
+		"Music": "@@@@@@@@@",
+		"Hometown": "@@@@@@@@@"
+	},
+	{
 		"Name": "Gary",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Gary.jpg",
 		"Reaction": "Heel",
@@ -313,8 +287,8 @@
 		"Moveset": "-",
 		"Signatures": ["-", "-"],
 		"Finishers": ["-", "-"],
-		"Entrance": "-",
-		"Music": "-",
+		"Entrance": "Natalya 1",
+		"Music": "Neon 1",
 		"Hometown": "Chicago, Illinois"
 	},
 	{
@@ -370,19 +344,6 @@
 		"Hometown": "Miami, Florida"
 	},
 	{
-		"Name": "Johnny Knoxville",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/JohnnyKnoxville.jpg",
-		"Reaction": "Face",
-		"Male": true,
-		"Height": "6'0",
-		"Moveset": "Sami Zayn",
-		"Signatures": ["Blue Thunder Bomb", "Torpedo DDT"],
-		"Finishers": ["Helluva Kick 1", "Big Boot 10"],
-		"Entrance": "The Living Legend 1",
-		"Music": "Sami Zayn",
-		"Hometown": "Knoxville, Tennessee"
-	},
-	{
 		"Name": "Joker",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Joker.jpg",
 		"Reaction": "Heel",
@@ -403,7 +364,7 @@
 		"Height": "6'2",
 		"Accolades": ["First World Champion","First Triple Crown Champion","1x Royal Rumble Winner"],
 		"Moveset": "Custom",
-		"Signatures": ["Kamigoye 1", "Dragon Sleeper 6"],
+		"Signatures": ["Rolling Unprettier", "Dragon Sleeper 6"],
 		"Finishers": ["Single Leg Knee Strike 1", "GTS 2"],
 		"Entrance": "Murphy 2",
 		"Music": "The Other Side - Alter Bridge",
@@ -448,6 +409,19 @@
 		"Entrance": "John Cena 1",
 		"Music": "John Cena",
 		"Hometown": "Memphis, Tennessee"
+	},
+	{
+		"Name": "Laura Mitchell",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/LauraMitchell.jpg",
+		"Reaction": "Heel",
+		"Male": false,
+		"Height": "5'4",
+		"Moveset": "Candice LeRae",
+		"Signatures": ["DDT 15", "Brogue Kick 2"],
+		"Finishers": ["Eclipse", "Storm Zero"],
+		"Entrance": "Alexa Bliss 3",
+		"Music": "Alexa Bliss '20",
+		"Hometown": "Green Bay, Wisconsin"
 	},
 	{
 		"Name": "Luna Ivy",
@@ -519,14 +493,14 @@
 	{
 		"Name": "Miles Greene",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/MilesGreene.jpg",
-		"Reaction": "Face",
+		"Reaction": "Heel",
 		"Male": true,
 		"Height": "5'9",
 		"Moveset": "Isaiah Swerve Scott",
 		"Signatures": ["Butterfly DDT 2", "Northern Lights Suplex 4"],
 		"Finishers": ["Basement Back Kick", "Spiral Tap"],
-		"Entrance": "Isaiah Swerve Scott",
-		"Music": "Isaiah Swerve Scott",
+		"Entrance": "Shelton Benjamin 2",
+		"Music": "The Greatest - Carmelo Hayes",
 		"Hometown": "Kansas City, Missouri"
 	},
 	{
@@ -562,8 +536,8 @@
 		"Male": true,
 		"Height": "6'6",
 		"Moveset": "Undertaker '10",
-		"Signatures": ["Wing Clipper 1", "Sit-Out Alabama Slam"],
-		"Finishers": ["Sit-Out Crucifix Powerbomb", "Sister Abigail 4"],
+		"Signatures": ["Wing Clipper 1", "Wing Clipper 2"],
+		"Finishers": ["Sit-Out Crucifix Powerbomb", "Crucifix Powerbomb 1"],
 		"Entrance": "Robert Roode 1",
 		"Music": "Robert Roode",
 		"Hometown": "Valhalla"
@@ -603,8 +577,8 @@
 		"Moveset": "-",
 		"Signatures": ["", ""],
 		"Finishers": ["", ""],
-		"Entrance": "",
-		"Music": "",
+		"Entrance": "Disco Dancer",
+		"Music": "Shane McMahon",
 		"Hometown": "Miami, Florida"
 	},
 	{
@@ -629,8 +603,8 @@
 	   "Moveset": "-",
 	   "Signatures": ["-", "-"],
 	   "Finishers": ["-", "-"],
-	   "Entrance": "-",
-	   "Music": "-",
+	   "Entrance": "Outback Dundee 2",
+	   "Music": "Cactus Jack",
 	   "Hometown": "The Wild West"
 	},
 	{
@@ -639,11 +613,11 @@
 		"Reaction": "Face",
 		"Male": false,
 		"Height": "6'3",
-		"Moveset": "-",
-		"Signatures": ["", ""],
-		"Finishers": ["", ""],
-		"Entrance": "",
-		"Music": "",
+		"Moveset": "Chyna",
+		"Signatures": ["Tour of the Islands", "Powerbomb 3"],
+		"Finishers": ["Avalanche Fallaway Moonsault Slam", "Spinning Uranage"],
+		"Entrance": "Chyna 1",
+		"Music": "Drew Gulak",
 		"Hometown": "The Future"
 	},
 	{
@@ -695,8 +669,8 @@
 		"Moveset": "-",
 		"Signatures": ["", ""],
 		"Finishers": ["", ""],
-		"Entrance": "",
-		"Music": "",
+		"Entrance": "Warrior Princess",
+		"Music": "Kacy Catanzaro",
 		"Hometown": "Out Of This World"
 	},
 	{
@@ -805,6 +779,19 @@
 		"Hometown": "Charleston, South Carolina"
 	},
 	{
+		"Name": "Tyler Castle",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/TylerCastle.jpg",
+		"Reaction": "Face",
+		"Male": true,
+		"Height": "6'3",
+		"Moveset": "-",
+		"Signatures": ["-", "-"],
+		"Finishers": ["-", "-"],
+		"Entrance": "Drew McIntyre 2",
+		"Music": "Victory",
+		"Hometown": "Fargo, North Dakota"
+	},
+	{
 		"Name": "Tyrone",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Tyrone.jpg",
 		"Reaction": "Heel",
@@ -840,8 +827,8 @@
 		"Moveset": "-",
 		"Signatures": ["", ""],
 		"Finishers": ["", ""],
-		"Entrance": "-",
-		"Music": "-",
+		"Entrance": "Boxer",
+		"Music": "Fresh Prince Theme Song",
 		"Hometown": "Philadelphia, Pennsylvania"
 	},
 	{
@@ -879,8 +866,8 @@
 		"Moveset": "-",
 		"Signatures": ["-", "-"],
 		"Finishers": ["-", "-"],
-		"Entrance": "-",
-		"Music": "-",
+		"Entrance": "Tamina",
+		"Music": "Dexter Lumis",
 		"Hometown": "The Future"
 	}
 ]

@@ -1,5 +1,20 @@
 {
   "seasons": [
+	{
+		"ppvs": [
+			{
+				"Name": "SmackDown: Day 1",
+				"Color": "blue",
+				"URL": "",
+				"Matches": [
+					"Overgiver vs ??? | Mystery Opponent Match",
+					"Valkyrie's Open Challenge | Women's Championship",
+					"Samus vs Laura Mitchell | Money in the Bank Qualifier",
+					"Josh (c) vs Clag | Triple Crown Championship"
+				]
+			}
+		]
+	},
     {
       "ppvs": [
 		{
@@ -141,7 +156,7 @@
           "Color": "gray",
 		  "URL": "https://www.youtube.com/watch?v=_gDZ9CBEuoI",
           "Matches": [
-              "Blaire (c) vs Shego | Women's Championship",
+              "Blaire (c) def. Shego | Women's Championship",
               "Alexander Moore (c) def. Johnny Knoxville | 10-Minute Time Limit | Intercontinental Championship",
               "Chad Thundercock def. Shroud",
               "Josh def. Trey (c), Clag | Triple Threat TLC Match | World Championship"

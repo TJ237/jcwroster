@@ -58,5 +58,21 @@
 			"Luna Ivy - 3",
 			"Scarlett - 2"
 		]
+	},
+	{
+		"Title": "ECW Championship",
+		"Current": "Vacant",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/ECWTitle.png",
+		"History": [
+			"NONE"
+		]
+	},
+	{
+		"Title": "Women's Hardcore Championship",
+		"Current": "Vacant",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/WomensHardcoreTitle.png",
+		"History": [
+			"NONE"
+		]
 	}
 ]

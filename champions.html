@@ -19,7 +19,7 @@
 
 <body onload="loadChampions()">
 
-	<h1 style="font-size: 2em; margin-bottom: 0;">Last Updated: WrestleMania 2</h1>
+	<h1 style="font-size: 2em; margin-bottom: 0; font-family: Verdana;">Last Updated: WrestleMania 2</h1>
 
 	<span class="all-champions-container">
 
@@ -29,7 +29,7 @@
 			<h4 id="title-1">Triple Crown Champion</h4>
 			<p id="title-current-1">Josh</p>
 			<br>
-			<p class="title-history" onclick="history1()">v TITLE HISTORY v</p>
+			<p class="title-history" onclick="openHistory(1)">v TITLE HISTORY v</p>
 			<p3 id="title-history-1" style="display: none;"></p3>
 		</div>
 
@@ -39,7 +39,7 @@
 			<h4 id="title-2">Women's Champion</h4>
 			<p id="title-current-2">Valkyrie</p>
 			<br>
-			<p class="title-history" onclick="history2()">v TITLE HISTORY v</p>
+			<p class="title-history" onclick="openHistory(2)">v TITLE HISTORY v</p>
 			<p3 id="title-history-2" style="display: none;"></p3>
 		</div>
 
@@ -49,7 +49,7 @@
 			<h4 id="title-3">Intercontinental Champion</h4>
 			<p id="title-current-3">Vacant</p>
 			<br>
-			<p class="title-history" onclick="history3()">v TITLE HISTORY v</p>
+			<p class="title-history" onclick="openHistory(3)">v TITLE HISTORY v</p>
 			<p3 id="title-history-3" style="display: none;"></p3>
 		</div>
 
@@ -59,8 +59,28 @@
 			<h4 id="title-4">United States Champion</h4>
 			<p id="title-current-4">Catwoman - 0</p>
 			<br>
-			<p class="title-history" onclick="history4()">v TITLE HISTORY v</p>
+			<p class="title-history" onclick="openHistory(4)">v TITLE HISTORY v</p>
 			<p3 id="title-history-4" style="display: none;"></p3>
+		</div>
+
+		<div class="champion-container">
+			<img width="256" height="128" src="" alt="" id="title-render-5" class="title-render">
+			<br>
+			<h4 id="title-5">ECW Championship</h4>
+			<p id="title-current-5">Vacant</p>
+			<br>
+			<p class="title-history" onclick="openHistory(5)">v TITLE HISTORY v</p>
+			<p3 id="title-history-5" style="display: none;"></p3>
+		</div>
+
+		<div class="champion-container">
+			<img width="256" height="128" src="" alt="" id="title-render-6" class="title-render">
+			<br>
+			<h4 id="title-6">Women's Hardcore Championship</h4>
+			<p id="title-current-6">Vacant</p>
+			<br>
+			<p class="title-history" onclick="openHistory(6)">v TITLE HISTORY v</p>
+			<p3 id="title-history-6" style="display: none;"></p3>
 		</div>
 	</span>
 
@@ -69,37 +89,16 @@
 <script type="text/javascript">
 	var myData;
 
-	function history1()
+	function openHistory(num)
 	{
-		var div = document.getElementById("title-history-1");
-		if (div.style.display == "block") div.style.display = "none";
-		else div.style.display = "block";
-	}
-
-	function history2()
-	{
-		var div = document.getElementById("title-history-2");
-		if (div.style.display == "block") div.style.display = "none";
-		else div.style.display = "block";
-	}
-
-	function history3()
-	{
-		var div = document.getElementById("title-history-3");
-		if (div.style.display == "block") div.style.display = "none";
-		else div.style.display = "block";
-	}
-
-	function history4()
-	{
-		var div = document.getElementById("title-history-4");
+		var div = document.getElementById("title-history-" + num);
 		if (div.style.display == "block") div.style.display = "none";
 		else div.style.display = "block";
 	}
 
     async function loadChampions()
   	{
-  		const response = await fetch("champions.json?v=1.0.0");
+  		const response = await fetch("champions.json?v=1.2");
   		const json = await response.text();
   		myData = JSON.parse(json);
 
