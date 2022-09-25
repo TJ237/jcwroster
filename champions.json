@@ -1,9 +1,10 @@
 [
 	{
 		"Title": "Triple Crown Champion",
-		"Current": "Josh",
+		"Current": "Trey",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/TripleCrownTitle.png",
 		"History": [
+			"Josh",
 			"Clag",
 			"Overgiver",
 			"Clag",
@@ -18,10 +19,11 @@
 		]
 	},
 	{
-		"Title": "Women's Champion",
-		"Current": "Valkyrie",
+		"Title": "World Champion",
+		"Current": "Bombshell",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/WomensTitle.png",
 		"History": [
+			"Valkyrie",
 			"Willow",
 			"Bombshell",
 			"Blaire",
@@ -31,7 +33,7 @@
 	},
 	{
 		"Title": "Intercontinental Champion",
-		"Current": "Vacant",
+		"Current": "Pepsi Man - 0",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/IntercontinentalTitle.png",
 		"History": [
 			"Trey - 3",
@@ -50,7 +52,7 @@
 	},
 	{
 		"Title": "United States Champion",
-		"Current": "Catwoman - 0",
+		"Current": "Catwoman - 1",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/UnitedStatesTitle.png",
 		"History": [
 			"Alice Hart - 0",
@@ -61,15 +63,15 @@
 	},
 	{
 		"Title": "ECW Champion",
-		"Current": "Vacant",
+		"Current": "Joe Cruise",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/ECWTitle.png",
 		"History": [
 			"NONE"
 		]
 	},
 	{
-		"Title": "Women's Hardcore Champion",
-		"Current": "Vacant",
+		"Title": "Hardcore Champion",
+		"Current": "Scarlett",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/WomensHardcoreTitle.png",
 		"History": [
 			"NONE"
