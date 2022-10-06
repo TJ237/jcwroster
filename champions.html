@@ -19,9 +19,18 @@
 
 <body onload="loadChampions()">
 
-	<h1 style="font-size: 2em; margin-bottom: 0; font-family: Verdana;">Last Updated: WrestleMania Backlash</h1>
+	<h1 style="font-size: 2em; margin-bottom: 0; font-family: Verdana;">Last Updated: Money in the Bank</h1>
 
 	<span class="all-champions-container">
+
+		<div class="champion-container">
+			<br>
+			<h4 style="color:gold;">Mr. Money in the Bank</h4>
+			<p>Kratos</p>
+			<br>
+			<h4 style="color:gold;">Ms. Money in the Bank</h4>
+			<p>Jessica Blake</p>
+		</div>
 
 		<div class="champion-container">
 			<img width="256" height="128" src="" alt="" id="title-render-1" class="title-render">
@@ -82,6 +91,57 @@
 			<p class="title-history" onclick="openHistory(6)">v TITLE HISTORY v</p>
 			<p3 id="title-history-6" style="display: none;"></p3>
 		</div>
+
+		<!--	Money in the Bank History	-->
+		<div class="champion-container" style="margin-top:5em; margin-bottom: 2.5em;">
+			<h4 style="color:gold;">Men's MITB History</h4>
+			<p style="margin-bottom: 0;">Batman</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Failed to Cash-In on Josh)</p>
+			<p style="margin-bottom: 0;">Chad Thundercock</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Successfully Cashed In on Josh)</p>
+			<p style="margin-bottom: 0;">Kratos</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Has not cashed in yet)</p>
+		</div>
+
+		<div class="champion-container" style="margin-top:2.5em; margin-bottom: 2.5em;">
+			<h4 style="color:gold;">Women's MITB History</h4>
+			<p style="margin-bottom: 0;">Aloy</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Lost briefcase to Bombshell)</p>
+			<p style="margin-bottom: 0;">Bombshell</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Successfully Cashed In on Blaire)</p>
+			<p style="margin-bottom: 0;">Jessica Blake</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Has not cashed in yet)</p>
+		</div>
+
+		<!--	KOTR / QOTR History	-->
+		<div class="champion-container" style="margin-top:5em; margin-bottom: 2.5em;">
+			<h4 style="color:gold;">King of the Ring History</h4>
+			<p style="margin-bottom: 0;">Batman</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Lost Title Match)</p>
+			<p style="margin-bottom: 0;">Prince Alexander</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Lost Title Match)</p>
+		</div>
+
+		<div class="champion-container" style="margin-top:2.5em; margin-bottom: 2.5em;">
+			<h4 style="color:gold;">Queen of the Ring History</h4>
+			<p style="margin-bottom: 0;">Valkyrie</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Lost Title Match)</p>
+		</div>
+
+		<!--	Royal Rumble History	-->
+		<div class="champion-container" style="margin-top:5em; margin-bottom: 2.5em;">
+			<h4 style="color:gold;">Men's Royal Rumble History</h4>
+			<p style="margin-bottom: 0;">Michael</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Lost Title Opportunity to Clag)</p>
+			<p style="margin-bottom: 0;">Josh</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Won Triple Crown Championship)</p>
+		</div>
+
+		<div class="champion-container" style="margin-top:2.5em; margin-bottom: 2.5em;">
+			<h4 style="color:gold;">Women's Royal Rumble History</h4>
+			<p style="margin-bottom: 0;">CJ Lee</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Lost Women's Championship Match)</p>
+		</div>
 	</span>
 
 </body>
@@ -98,7 +158,7 @@
 
     async function loadChampions()
   	{
-  		const response = await fetch("champions.json?v=1.3");
+  		const response = await fetch("champions.json?v=1.3.1");
   		const json = await response.text();
   		myData = JSON.parse(json);
 

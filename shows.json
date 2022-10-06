@@ -3,15 +3,27 @@
 	{
 		"ppvs": [
 			{
-				"Name": "Money in the Bank",
-				"Color": "green",
+				"Name": "Great American Bash",
+				"Color": "lightblue",
 				"URL": "",
 				"Matches": [
-					"Ahsoka vs Jessica Blake vs Laura Mitchell vs Scarlett | Women's MITB Ladder Match",
-					"Catwoman (c) vs Shego | 10-Minute Time Limit | United States Championship",
-					"Chad Thundercock vs Clag vs Joe Cruise vs Nacho Libre | Men's MITB Ladder Match",
-					"Bombshell (c) vs She-ra | World Championship",
-					"Trey (c) vs Joker | Triple Crown Championship"
+					"Clag vs King Alexander | #1 Contender for Triple Crown Championship",
+					"Catwoman (c) vs Luna Ivy | Tables Match | United States Championship",
+					"Blaire vs Alice Hart",
+					"Pepsi Man (c) vs Chad Thundercock | Fight Pit | Intercontinental Championship",
+					"Bombshell (c) vs Sheik | World Championship"
+				]
+			},
+			{
+				"Name": "Money in the Bank",
+				"Color": "green",
+				"URL": "https://youtu.be/K_D416ZvKvQ",
+				"Matches": [
+					"Jessica Blake def. Ahsoka, Laura Mitchell, Scarlett | Women's MITB Ladder Match",
+					"Catwoman (c) def. Shego | 10-Minute Time Limit | United States Championship",
+					"Kratos def. Clag, Joe Cruise, Nacho Libre | Men's MITB Ladder Match",
+					"Bombshell (c) def. She-ra | World Championship",
+					"Trey (c) def. Joker | Triple Crown Championship"
 				]
 			},
 			{
