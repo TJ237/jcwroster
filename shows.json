@@ -3,15 +3,29 @@
 	{
 		"ppvs": [
 			{
+				"Name": "SummerSlam",
+				"Color": "orange",
+				"URL": "https://youtu.be/YgyzaIhoMUA",
+				"Matches": [
+					"Doom def. The Fiend | #1 Contender for Triple Crown Championship",
+					"Overgiver def. Chad Thundercock (c) | No Holds Barred | Intercontinental Championship",
+					"Sofia Lacasa def. Blaire | Extreme Rules",
+					"Clag def. Dash Anderson | Steel Cage",
+					"Catwoman def. Bombshell (c) | World Championship | US Title Trade-In",
+					"King Alexander def. Trey (c) | Triple Crown Championship",
+					"Kratos def. King Alexander (c) | Money in the Bank Cash-In | Triple Crown Championship"
+				]
+			},
+			{
 				"Name": "Great American Bash",
 				"Color": "lightblue",
-				"URL": "",
+				"URL": "https://youtu.be/p2WxTkkGu30",
 				"Matches": [
-					"Clag vs King Alexander | #1 Contender for Triple Crown Championship",
-					"Catwoman (c) vs Luna Ivy | Tables Match | United States Championship",
-					"Blaire vs Alice Hart",
-					"Pepsi Man (c) vs Chad Thundercock | Fight Pit | Intercontinental Championship",
-					"Bombshell (c) vs Sheik | World Championship"
+					"King Alexander def. Clag | #1 Contender for Triple Crown Championship",
+					"Catwoman (c) def. Luna Ivy | Tables Match | United States Championship",
+					"Blaire def. Alice Hart",
+					"Chad Thundercock def. Pepsi Man (c) | Fight Pit | Intercontinental Championship",
+					"Bombshell (c) def. Sheik | World Championship"
 				]
 			},
 			{

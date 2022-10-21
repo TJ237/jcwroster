@@ -1,9 +1,11 @@
 [
 	{
 		"Title": "Triple Crown Champion",
-		"Current": "Trey",
+		"Current": "Kratos",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/TripleCrownTitle.png",
 		"History": [
+			"King Alexander",
+			"Trey",
 			"Josh",
 			"Clag",
 			"Overgiver",
@@ -20,9 +22,10 @@
 	},
 	{
 		"Title": "World Champion",
-		"Current": "Bombshell",
+		"Current": "Catwoman",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/WomensTitle.png",
 		"History": [
+			"Bombshell",
 			"Valkyrie",
 			"Willow",
 			"Bombshell",
@@ -33,9 +36,11 @@
 	},
 	{
 		"Title": "Intercontinental Champion",
-		"Current": "Pepsi Man - 0",
+		"Current": "The Overgiver",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/IntercontinentalTitle.png",
 		"History": [
+			"Chad Thundercock - 0",
+			"Pepsi Man - 0",
 			"Trey - 3",
 			"Tyrone - 2",
 			"Michael - 0",
@@ -52,9 +57,10 @@
 	},
 	{
 		"Title": "United States Champion",
-		"Current": "Catwoman - 2",
+		"Current": "VACANT",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/UnitedStatesTitle.png",
 		"History": [
+			"Catwoman - 3",
 			"Alice Hart - 0",
 			"Wonder Woman - 1",
 			"Luna Ivy - 3",
@@ -63,10 +69,10 @@
 	},
 	{
 		"Title": "ECW Champion",
-		"Current": "Joe Cruise",
+		"Current": "SMAB",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/ECWTitle.png",
 		"History": [
-			"NONE"
+			"Joe Cruise"
 		]
 	},
 	{
