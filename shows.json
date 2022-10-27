@@ -3,6 +3,18 @@
 	{
 		"ppvs": [
 			{
+				"Name": "Cyber Sunday",
+				"Color": "lightblue",
+				"URL": "",
+				"Matches": [
+					"Catwoman (C) vs Sofia Lacasa | Fight Pit | World Championship",
+					"Clag vs King Alexander | First Blood",
+					"Amanda Diaz vs Blaire vs Spider-Gwen | Triple Threat Knockout Elimination | United States Championship",
+					"Overgiver (c) vs Big Smoke | 10-Minute Time Limit | Intercontinental Championship",
+					"Kratos (c) vs Doom | Steel Cage | Triple Crown Championship"
+				]
+			},
+			{
 				"Name": "SummerSlam",
 				"Color": "orange",
 				"URL": "https://youtu.be/YgyzaIhoMUA",
