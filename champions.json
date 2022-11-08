@@ -22,9 +22,10 @@
 	},
 	{
 		"Title": "World Champion",
-		"Current": "Catwoman",
+		"Current": "CJ Lee",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/WomensTitle.png",
 		"History": [
+			"Catwoman",
 			"Bombshell",
 			"Valkyrie",
 			"Willow",
@@ -36,7 +37,7 @@
 	},
 	{
 		"Title": "Intercontinental Champion",
-		"Current": "The Overgiver",
+		"Current": "The Overgiver - 2",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/IntercontinentalTitle.png",
 		"History": [
 			"Chad Thundercock - 0",
@@ -57,9 +58,10 @@
 	},
 	{
 		"Title": "United States Champion",
-		"Current": "VACANT",
+		"Current": "Alice Hart - 0",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/UnitedStatesTitle.png",
 		"History": [
+			"Blaire - 0",
 			"Catwoman - 3",
 			"Alice Hart - 0",
 			"Wonder Woman - 1",

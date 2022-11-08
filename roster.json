@@ -266,19 +266,6 @@
 		"Hometown": "Kyoto, Japan"
 	},
 	{
-		"Name": "Human Spider",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/HumanSpider.jpg",
-		"Reaction": "Face",
-		"Male": true,
-		"Height": "5'8",
-		"Moveset": "Custom",
-		"Signatures": ["Running Hurricanrana 1", "Avalanche Bulldog"],
-		"Finishers": ["Salida Del Sol 1", "Dragon Twist Cutter"],
-		"Entrance": "Bayamons Finest",
-		"Music": "Candies 1",
-		"Hometown": "Queens, New York"
-	},
-	{
 		"Name": "Jade Pierce",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/JadePierce.jpg",
 		"Reaction": "Face",
@@ -320,7 +307,7 @@
 	{
 		"Name": "Jinx",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Jinx.jpg",
-		"Reaction": "Heel",
+		"Reaction": "Face",
 		"Male": false,
 		"Height": "5'2",
 		"Moveset": "Asuka",
@@ -346,7 +333,7 @@
 	{
 		"Name": "Joker",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Joker.jpg",
-		"Reaction": "Heel",
+		"Reaction": "Face",
 		"Male": true,
 		"Height": "6'0",
 		"Moveset": "Custom",

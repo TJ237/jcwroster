@@ -3,9 +3,33 @@
 	{
 		"ppvs": [
 			{
+				"Name": "Halloween Havoc",
+				"Color": "orange",
+				"URL": "",
+				"Matches": [
+					"Josh vs ??? | Halloween Mystery Match",
+					"Bombshell vs Catwoman | No Holds Barred | #1 Contender for World Title",
+					"Blaire vs ??? | Halloween Mystery Match",
+					"Clag vs Trey | Trick or Street Fight | #1 Contender for Triple Crown Title"
+				]
+			},
+			{
+				"Name": "Survivor Series",
+				"Color": "red",
+				"URL": "https://youtu.be/ob9tUNCWIjM",
+				"Matches": [
+					"Industry (Clag, SMAB, Nahco) def. Evolution (Josh, Alexander, Anderson) | Survival Match",
+					"Doom def. Human Spider | Falls Count Anywhere | Loser Leaves JCW",
+					"Overgiver (c) def. Michael | Intercontinental Championship",
+					"Hart Foundation (Alice, Jessica, Sofia) def. Anarchists (Blaire, Scarlett, Wraith) | Tornado Survival Match | US Championship & Women's MITB",
+					"CJ Lee def. Catwoman (c) | World Championship",
+					"Kratos (c) def. Trey | Triple Crown Championship"
+				]
+			},
+			{
 				"Name": "Cyber Sunday",
 				"Color": "lightblue",
-				"URL": "",
+				"URL": "https://youtu.be/x7Oy6K4WeEU",
 				"Matches": [
 					"Catwoman (C) vs Sofia Lacasa | Fight Pit | World Championship",
 					"Clag vs King Alexander | First Blood",
