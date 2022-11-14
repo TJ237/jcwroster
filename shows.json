@@ -3,14 +3,26 @@
 	{
 		"ppvs": [
 			{
-				"Name": "Halloween Havoc",
-				"Color": "orange",
+				"Name": "Clash at the Castle",
+				"Color": "green",
 				"URL": "",
 				"Matches": [
-					"Josh vs ??? | Halloween Mystery Match",
-					"Bombshell vs Catwoman | No Holds Barred | #1 Contender for World Title",
-					"Blaire vs ??? | Halloween Mystery Match",
-					"Clag vs Trey | Trick or Street Fight | #1 Contender for Triple Crown Title"
+					"Kratos (c) vs Trey | Hell in a Cell | Triple Crown Championship",
+					"CJ Lee (c) vs Bombshell | World Championship",
+					"Overgiver (c) vs Tyrone | Intercontinental Championship",
+					"Alice Hart (c) vs Willow | 10-Minute Time Limit | United States Championship",
+					"Josh vs King Alexander | King of the Ring Round 1 Match"
+				]
+			},
+			{
+				"Name": "Halloween Havoc",
+				"Color": "orange",
+				"URL": "https://youtu.be/FDXXjEfHXz0",
+				"Matches": [
+					"Josh def. Doink The Clown | Halloween Mystery Match",
+					"Bombshell def. Catwoman | No Holds Barred | #1 Contender for World Title",
+					"Blaire def. Sasha Banks | Halloween Mystery Match",
+					"Trey def. Clag | Trick or Street Fight | #1 Contender for Triple Crown Title"
 				]
 			},
 			{
