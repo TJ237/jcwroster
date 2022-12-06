@@ -12,6 +12,33 @@
 		"Hometown": "Out Of This World"
 	},
 	{
+		"Name": "Akari Hoshimiya",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Akari.jpg",
+		"Reaction": "Face",
+		"Male": false,
+		"Height": "5'7",
+		"Moveset": "Custom",
+		"Signatures": ["Wilde Thing", "Spin Kick 2"],
+		"Finishers": ["Aztec Press", "Superkick 16"],
+		"Entrance": "Mansoor",
+		"Music": "Asuka",
+		"Hometown": "Kyoto, Japan"
+	},
+	{
+		"Name": "Alexander",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/KingAlexander.jpg",
+		"Reaction": "Heel",
+		"Male": true,
+		"Height": "5'9",
+		"Accolades": ["1x King of the Ring Winner","1x IC Title Trade-In"],
+		"Moveset": "Finn Balor",
+		"Signatures": ["Torpedo Moscow 2", "BME"],
+		"Finishers": ["1916", "Front Flip DDT"],
+		"Entrance": "Baron Corbin",
+		"Music": "I Bring The Darkness - Baron Corbin",
+		"Hometown": "London, England"
+	},
+	{
 		"Name": "Alice Hart",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/AliceHart.jpg",
 		"Reaction": "Heel",
@@ -48,21 +75,8 @@
 		"Signatures": ["Stump-Puller Piledriver 2", "Ricola Bomb"],
 		"Finishers": ["Russian Bottom", "High Angle Spinebuster"],
 		"Entrance": "Rhea Ripley",
-		"Music": "Rhea Ripley",
+		"Music": "Demon in Your Dreams - Rhea Ripley",
 		"Hometown": "Atlanta, Georgia"
-	},
-	{
-	   "Name": "Azula",
-	   "Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Azula.jpg",
-	   "Reaction": "Heel",
-	   "Male": false,
-	   "Height": "5'2",
-	   "Moveset": "Xia Li",
-	   "Signatures": ["Kinshasa 1", "Springboard Dropkick 4"],
-	   "Finishers": ["Standing Shiranui 1", "Fujiwara Armbar 5"],
-	   "Entrance": "Stephanie McMahon",
-	   "Music": "-",
-	   "Hometown": "The Queen City"
 	},
 	{
 		"Name": "Batman",
@@ -120,6 +134,19 @@
 		"Hometown": "Anaheim, California"
 	},
 	{
+		"Name": "Cali Harris",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/CaliHarris.jpg",
+		"Reaction": "Face",
+		"Male": false,
+		"Height": "5'2",
+		"Moveset": "Custom",
+		"Signatures": ["Springboard Shooting Star 3", "Front Flip DDT"],
+		"Finishers": ["Rainbow Cutter", "Double Rotation Moonsault"],
+		"Entrance": "Mia Yim",
+		"Music": "Mia Yim",
+		"Hometown": "Huntington Beach, California"
+	},
+	{
 		"Name": "Catwoman",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Catwoman.jpg",
 		"Reaction": "Face",
@@ -128,7 +155,7 @@
 		"Moveset": "Peyton Royce",
 		"Signatures": ["Pele Kick 3", "Springboard Front Dropkick"],
 		"Finishers": ["Keibler Kick", "Black Widow"],
-		"Entrance": "Peyton Royce",
+		"Entrance": "Peyton Royce 1",
 		"Music": "Peyton Royce",
 		"Hometown": "Long Island, New York"
 	},
@@ -201,19 +228,6 @@
 		"Hometown": "Overseas"
 	},
 	{
-		"Name": "El Phantasma",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/ElPhantasma.jpg",
-		"Reaction": "Face",
-		"Male": true,
-		"Height": "5'8",
-		"Moveset": "Santos Escobar",
-		"Signatures": ["Dudebuster", "Aztec Press"],
-		"Finishers": ["Metalik Driver", "450 Splash"],
-		"Entrance": "Rey Mysterio '06",
-		"Music": "Rey Mysterio '06",
-		"Hometown": "Durango, Mexico"
-	},
-	{
 		"Name": "Eli Williams",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/EliWilliams.jpg",
 		"Reaction": "Face",
@@ -227,17 +241,17 @@
 		"Hometown": "Great Falls, Montana"
 	},
 	{
-		"Name": "The Fiend",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Fiend.jpg",
-		"Reaction": "Face",
-		"Male": true,
-		"Height": "6'3",
+		"Name": "Erin Fang",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/ErinFang.jpg",
+		"Reaction": "Heel",
+		"Male": false,
+		"Height": "5'8",
 		"Moveset": "Custom",
-		"Signatures": ["Sister Abigail 4", "Mandible Claw 4"],
-		"Finishers": ["Sister Abigail 2", "Mandible Claw 5"],
-		"Entrance": "Fiendish",
-		"Music": "Let Me In - Code Orange",
-		"Hometown": "Parts Unknown"
+		"Signatures": ["Scottish Sickle", "Diving Meteora 1"],
+		"Finishers": ["Gourdbuster GTS", "Avalanche Spinebuster"],
+		"Entrance": "Mustafa Ali 1",
+		"Music": "Generation of Jade - Cora Jade",
+		"Hometown": "Anaheim, California"
 	},
 	{
 		"Name": "Gary",
@@ -313,8 +327,8 @@
 		"Moveset": "Asuka",
 		"Signatures": ["Running Hip Attack 3", "Lariat"],
 		"Finishers": ["Last Shot 1", "Airplane Spin/TKO"],
-		"Entrance": "Asuka",
-		"Music": "Asuka",
+		"Entrance": "Alexa Bliss 1",
+		"Music": "Get Jinxed - League of Legends",
 		"Hometown": "The Edge Of Reality"
 	},
 	{
@@ -346,30 +360,16 @@
 	{
 		"Name": "Josh",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Josh.jpg",
-		"Reaction": "Heel",
+		"Reaction": "Face",
 		"Male": true,
 		"Height": "6'2",
 		"Accolades": ["First World Champion","First Triple Crown Champion","1x Royal Rumble Winner"],
 		"Moveset": "Custom",
 		"Signatures": ["Knee Lift 9", "Superplex/Falcon Arrow Combo"],
-		"Finishers": ["GTS 2", "Phoenix Splash"],
-		"Entrance": "Murphy 2",
-		"Music": "The Other Side - Alter Bridge",
+		"Finishers": ["Single Leg Knee Strike 2", "GTS 2"],
+		"Entrance": "Chad Gable 1",
+		"Music": "Smoke You Out - Self Deception",
 		"Hometown": "Charlottesville, Virginia"
-	},
-	{
-		"Name": "King Alexander",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/KingAlexander.jpg",
-		"Reaction": "Heel",
-		"Male": true,
-		"Height": "5'9",
-		"Accolades": ["1x King of the Ring Winner","1x IC Title Trade-In"],
-		"Moveset": "Finn Balor",
-		"Signatures": ["Torpedo Moscow 2", "BME"],
-		"Finishers": ["1916", "Front Flip DDT"],
-		"Entrance": "Baron Corbin",
-		"Music": "I Bring The Darkness - Baron Corbin",
-		"Hometown": "London, England"
 	},
 	{
 		"Name": "Kratos",
@@ -409,6 +409,19 @@
 		"Entrance": "Alexa Bliss 3",
 		"Music": "Alexa Bliss '20",
 		"Hometown": "Green Bay, Wisconsin"
+	},
+	{
+		"Name": "Lauren Edwards",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/LaurenEdwards.jpg",
+		"Reaction": "Face",
+		"Male": false,
+		"Height": "5'7",
+		"Moveset": "Custom",
+		"Signatures": ["Reality Check 1", "Burning Hammer 3"],
+		"Finishers": ["Bayley To Belly Suplex", "Deadlift Yokosuka Cutter"],
+		"Entrance": "Lacey Evans 2",
+		"Music": "Akira Tozawa",
+		"Hometown": "Las Vegas, Nevada"
 	},
 	{
 		"Name": "Luna Ivy",
@@ -524,10 +537,10 @@
 		"Height": "6'6",
 		"Moveset": "Undertaker '10",
 		"Signatures": ["Wing Clipper 1", "Wing Clipper 2"],
-		"Finishers": ["Sit-Out Crucifix Powerbomb", "Crucifix Powerbomb 1"],
-		"Entrance": "Robert Roode 1",
-		"Music": "Robert Roode",
-		"Hometown": "Valhalla"
+		"Finishers": ["Crucifix Powerbomb 1", "Sit-Out Crucifix Powerbomb"],
+		"Entrance": "Dark Ritual",
+		"Music": "Root of All Evil - Aleister Black",
+		"Hometown": "Limbo"
 	},
 	{
 		"Name": "Palpatine",
@@ -739,17 +752,17 @@
 		"Hometown": "Queens, New York"
  	},
 	{
-		"Name": "Taylor Storm",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/TaylorStorm.jpg",
-		"Reaction": "Face",
+		"Name": "Tracy Sherman",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/TracySherman.jpg",
+		"Reaction": "Heel",
 		"Male": false,
-		"Height": "5'4",
-		"Moveset": "Sonya Deville",
-		"Signatures": ["Rope Hung Lungblower", "Roundhouse Kick 12"],
-		"Finishers": ["Superkick 14", "Triangle Armbar 1"],
-		"Entrance": "Trish Stratus",
-		"Music": "Trish Stratus",
-		"Hometown": "Toronto, Ontario"
+		"Height": "5'7",
+		"Moveset": "Custom",
+		"Signatures": ["Airplane Spin/TKO", "Unprettier"],
+		"Finishers": ["Thrill of the Hunt", "GTS '18"],
+		"Entrance": "Mighty Miss",
+		"Music": "House Trap - Kiana James",
+		"Hometown": "Auckland, New Zealand"
 	},
 	{
 		"Name": "Trey",
@@ -759,10 +772,10 @@
 		"Height": "6'0",
 		"Accolades": ["2x WrestleMania Main Eventer","1x NA Title Trade-In"],
 		"Moveset": "Bobby Lashley",
-		"Signatures": ["Dominator 1", "Spinebuster 9"],
-		"Finishers": ["Spear 11", "Yokosuka Cutter 2"],
-		"Entrance": "Bobby Lashley 2",
-		"Music": "Heartless - The Weeknd",
+		"Signatures": ["Dominator 1", "Yokosuka Cutter 2"],
+		"Finishers": ["Spear 7", "Spear 11"],
+		"Entrance": "Batista '10",
+		"Music": "Superhero - Metro Boomin & Future",
 		"Hometown": "Charleston, South Carolina"
 	},
 	{
@@ -802,7 +815,7 @@
 		"Signatures": ["Helluva Kick 1", "Bankrupt"],
 		"Finishers": ["Revolution Knee 2", "Revolution Knee 1"],
 		"Entrance": "Knight Rider",
-		"Music": "A-Kid",
+		"Music": "Stars in the Night - Paige",
 		"Hometown": "Helsinki, Finland"
 	},
 	{

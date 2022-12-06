@@ -37,9 +37,10 @@
 	},
 	{
 		"Title": "Intercontinental Champion",
-		"Current": "The Overgiver - 2",
+		"Current": "VACANT",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/IntercontinentalTitle.png",
 		"History": [
+			"Overgiver - 3",
 			"Chad Thundercock - 0",
 			"Pepsi Man - 0",
 			"Trey - 3",
@@ -58,7 +59,7 @@
 	},
 	{
 		"Title": "United States Champion",
-		"Current": "Alice Hart - 0",
+		"Current": "Alice Hart - 2",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/UnitedStatesTitle.png",
 		"History": [
 			"Blaire - 0",
@@ -79,10 +80,10 @@
 	},
 	{
 		"Title": "Hardcore Champion",
-		"Current": "Scarlett",
+		"Current": "Amanda Diaz",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/WomensHardcoreTitle.png",
 		"History": [
-			"NONE"
+			"Scarlett"
 		]
 	}
 ]
