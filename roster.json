@@ -79,6 +79,19 @@
 		"Hometown": "Atlanta, Georgia"
 	},
 	{
+		"Name": "Bailey Blackwell",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/.jpg",
+		"Reaction": "Face",
+		"Male": false,
+		"Height": "5'2",
+		"Moveset": "Custom",
+		"Signatures": ["Triple Moonsault", "Shotgun Knee Strike 2"],
+		"Finishers": ["Double Rotation Moonsault", "Stratusfaction"],
+		"Entrance": "Trish Stratus",
+		"Music": "Trish Stratus",
+		"Hometown": "Vancouver, British Columbia"
+	},
+	{
 		"Name": "Batman",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Batman.jpg",
 		"Reaction": "Face",
@@ -141,7 +154,7 @@
 		"Height": "5'2",
 		"Moveset": "Custom",
 		"Signatures": ["Springboard Shooting Star 3", "Front Flip DDT"],
-		"Finishers": ["Rainbow Cutter", "Double Rotation Moonsault"],
+		"Finishers": ["Rainbow Cutter", "Phoenix Splash"],
 		"Entrance": "Mia Yim",
 		"Music": "Mia Yim",
 		"Hometown": "Huntington Beach, California"
