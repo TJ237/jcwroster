@@ -26,7 +26,7 @@
 	},
 	{
 		"Name": "Alexander",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/KingAlexander.jpg",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Alexander.jpg",
 		"Reaction": "Heel",
 		"Male": true,
 		"Height": "5'9",
@@ -80,7 +80,7 @@
 	},
 	{
 		"Name": "Bailey Blackwell",
-		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/.jpg",
+		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/BaileyBlackwell.jpg",
 		"Reaction": "Face",
 		"Male": false,
 		"Height": "5'2",
