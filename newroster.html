@@ -1,150 +1,111 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css?v=1.2">
+    <meta charset="UTF-8">
 	<title>JCW Roster</title>
-	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 </head>
-<body onload="loadTest()">
+<body>
+	<!--
+	<div class="d-inline-flex hstack gap-3">
+		<div class="card text-bg-dark">
+			<img src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Scarlett.jpg" class="render rounded float-start" alt="...">
+			<div class="card-img-overlay name-text">
+				<p class="card-text lh-1 mb-0">The Monster</p>
+				<h5 class="card-title lh-1 mb-0">Scarlett</h5>
+				<p class="card-text lh-1 mt-0">of The Anarchists</p>
+			</div>
+		</div>
+		<div class="card text-bg-dark">
+			<img src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Scarlett.jpg" class="render rounded float-start" alt="...">
+			<div class="card-img-overlay name-text">
+				<p class="card-text lh-1 mb-0">The Monster</p>
+				<h5 class="card-title lh-1 mb-0">Scarlett</h5>
+				<p class="card-text lh-1 mt-0">of The Anarchists</p>
+			</div>
+		</div>
+		<div class="card text-bg-dark">
+			<img src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Scarlett.jpg" class="render rounded float-start" alt="...">
+			<div class="card-img-overlay name-text">
+				<p class="card-text lh-1 mb-0">The Monster</p>
+				<h5 class="card-title lh-1 mb-0">Scarlett</h5>
+				<p class="card-text lh-1 mt-0">of The Anarchists</p>
+			</div>
+		</div>
+		<div class="card text-bg-dark">
+			<img src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Scarlett.jpg" class="render rounded float-start" alt="...">
+			<div class="card-img-overlay name-text">
+				<p class="card-text lh-1 mb-0">The Monster</p>
+				<h5 class="card-title lh-1 mb-0">Scarlett</h5>
+				<p class="card-text lh-1 mt-0">of The Anarchists</p>
+			</div>
+		</div>
+	</div>-->
 
-	<div class="roster-container">
-		<div id="rosterDiv" class="roster-div">
+		<style>
+			.my-custom-row {
+				background-color: bisque;
+				height: 400px;
+			}
+			.name-text {
+				color: white;
+			}
+			.render {
+				width: 250px;
+				height: 250px;
+			}
+			button {
+				background-color: dimgrey;
+				color: azure;
+				height: 10em;
+				width: 10em;
+			}
+			.img-master {
+				display: inline-flex;
+				flex-wrap: wrap;
+				margin: 1em auto;
+				transform: translateX(50%);
+			}
+			.img-container {
+				margin: 0 1em;
+				position: relative;
+				text-align: center;
+				color: white;
+			}
+			.top-left {
+				position: absolute;
+				top: 8px;
+				left: 16px;
+				text-align: left;
+				pointer-events: none;
+			}
+			p {
+				margin: 0 0 -5px 0;
+			}
+			h4 {
+				margin: 0 0;
+			}
+		</style>
+
+		<div class="img-master">
+
+			<div class="img-container">
+				<div class="top-left"> <h4>Clag</h4> <p>of The Industry</p> </div>
+				<input type="image" src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Clag.jpg" />
+			</div>
+
+			<div class="img-container">
+				<div class="top-left"> <h4>Trey</h4> <p></p> </div>
+				<input type="image" src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Trey.jpg" />
+			</div>
+
 		</div>
 
-		<div class="wrestler-div">
-			<p><img class="portrait" src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Vacant.png" alt="" width="250" height="250" id="pic" /></p>
-			<p id="name" style="text-align: center; font-size:30px;"><b>NAME</b></p>
-			<p id="reaction" style="text-align: center;">FACE/HEEL</p>
-			<p id="moveset" style="text-align: center;"><b>BASE MOVE SET</b><br /></p>
-			<p id="signatures" style="text-align: center;"><b>SIGNATURES</b><br /></p>
-			<p id="finishers" style="text-align: center;"><b>FINISHERS</b><br /></p>
-			<p id="entmotion" style="text-align: center;"><b>ENTRANCE MOTION</b><br /></p>
-			<p id="entmusic" style="text-align: center;"><b>ENTRANCE MUSIC</b><br /></p>
-		</div>
-	</div>
-
-	<div class="filter-container">
-		<select id="filter-gender" onchange="changeFilter();">
-			<option>All</option>
-			<option>Male</option>
-			<option>Female</option>
-		</select>
-
-		<select id="filter-reaction" onchange="changeFilter();">
-			<option>All</option>
-			<option>Face</option>
-			<option>Heel</option>
-		</select>
-	</div>
-
-	<p id="music" style="margin-top: 10%;">
-		<b>All Music Being Used:</b>
-	</p>
-	
-	<p id="motions">
-		<b>All Motions Being Used:</b>
-	</p>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </body>
-
-<script>
-	function changeFilter()
-	{
-		var wList = document.getElementById("rosterDiv").querySelectorAll(".wrestler-button");
-		var gFilterVal = document.getElementById("filter-gender").selectedIndex;
-		var rFilterVal = document.getElementById("filter-reaction").selectedIndex;
-
-		for (i = 0; i < wList.length; i++)
-		{
-			if (gFilterVal == 0 && rFilterVal == 0)
-			{
-				wList[i].style.display = "block";
-				continue;
-			}
-
-			var gMatch = true;
-			var rMatch = true;
-
-			if (gFilterVal != 0)
-			{
-				if (myData[i].Male && gFilterVal == 1 || !myData[i].Male && gFilterVal == 2)
-				{ gMatch = true; }
-				else
-				{ gMatch = false; }
-			}
-
-			if (rFilterVal != 0)
-			{
-				if (myData[i].Reaction == "Face" && rFilterVal == 1 || myData[i].Reaction == "Heel" && rFilterVal == 2)
-				{ rMatch = true; }
-				else
-				{ rMatch = false; }
-			}
-
-			if (gMatch && rMatch)
-			{ wList[i].style.display = "block"; }
-			else
-			{ wList[i].style.display = "none"; }
-		}
-	}
-
-	function setData(b)
-	{
-		var charButton = b.value;
-
-		//document.getElementById("pic").src = myData[charButton].Img;
-
-		document.getElementById("name").innerHTML = "<b>" + myData[charButton].Name + "</b>";
-		document.getElementById("reaction").innerHTML = myData[charButton].Reaction;
-		
-		document.getElementById("moveset").innerHTML = "<b>BASE MOVE SET</b><br />"
-		document.getElementById("moveset").innerHTML += myData[charButton].Moveset;
-		
-		document.getElementById("signatures").innerHTML = "<b>SIGNATURES</b><br />"
-		document.getElementById("signatures").innerHTML += myData[charButton].Signatures[0] + "<br />";
-		document.getElementById("signatures").innerHTML += myData[charButton].Signatures[1];
-		
-		document.getElementById("finishers").innerHTML = "<b>FINISHERS</b><br />"
-		document.getElementById("finishers").innerHTML += myData[charButton].Finishers[0] + "<br />";
-		document.getElementById("finishers").innerHTML += myData[charButton].Finishers[1];
-		
-		document.getElementById("entmotion").innerHTML = "<b>ENTRANCE MOTION</b><br />"
-		document.getElementById("entmotion").innerHTML += myData[charButton].Entrance;
-		
-		document.getElementById("entmusic").innerHTML = "<b>ENTRANCE MUSIC</b><br />"
-		document.getElementById("entmusic").innerHTML += myData[charButton].Music;
-	}
-
-	async function loadTest()
-	{
-		const response = await fetch("roster.json?v=1.3");
-		const json = await response.text();
-		
-		myData = JSON.parse(json);
-
-		var namesList = document.getElementById("names");
-		var musicList = document.getElementById("music");
-		var motionList = document.getElementById("motions");
-		
-		for (i = 0; i < myData.length; i++)
-		{
-			let p = document.createElement("p");
-			
-			musicList.innerHTML += "<br />" + myData[i].Music;
-			motionList.innerHTML += "<br />" + myData[i].Entrance;
-
-			var rosterCont = document.getElementById("rosterDiv");
-			let b = document.createElement("button");
-			b.innerText = myData[i].Name;
-			b.value = i;
-			b.classList.add("wrestler-button");
-			b.addEventListener('click', function(){
-				setData(b);
-			});
-			rosterCont.append(b);
-		}
-	}
-</script>
-
 </html>

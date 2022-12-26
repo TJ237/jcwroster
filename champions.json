@@ -22,9 +22,11 @@
 	},
 	{
 		"Title": "World Champion",
-		"Current": "CJ Lee",
+		"Current": "Jessica Blake",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/WomensTitle.png",
 		"History": [
+			"Blaire",
+			"CJ Lee",
 			"Catwoman",
 			"Bombshell",
 			"Valkyrie",
@@ -37,7 +39,7 @@
 	},
 	{
 		"Title": "Intercontinental Champion",
-		"Current": "VACANT",
+		"Current": "Josh - 0",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/IntercontinentalTitle.png",
 		"History": [
 			"Overgiver - 3",
