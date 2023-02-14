@@ -3,6 +3,49 @@
 	{
 		"ppvs": [
 			{
+				"Name": "WrestleMania 3",
+				"Color": "teal",
+				"URL": "",
+				"Matches": [
+					"Kratos (c) vs Bray Wyatt | Triple Crown Championship",
+					"Alexander vs Josh | Hell in a Cell",
+					"Spider-Gwen (c) vs Amanda Diaz | No Holds Barred | United States Championship",
+					"Clag (c) vs Trey | Intercontinental Championship",
+					"Bombshell (c) vs Catwoman vs Jessica Blake | Triple Threat | World Championship"
+				]
+			},
+			{
+				"Name": "WrestleMania 3 Pre-Show",
+				"Color": "teal",
+				"URL": "",
+				"Matches": [
+					"Akari vs Erin Fang vs Scarlett vs Shego vs Wonder Woman | Mae Young Memorial Battle Royal | MITB Qualifier",
+					"Batman vs Chad Thundercock vs Nacho Libre vs Pitbull vs Tyrone | Andre the Giant Memorial Battle Royal | MITB Qualifier"
+				]
+			},
+			{
+				"Name": "Elimination Chamber",
+				"Color": "darkred",
+				"URL": "https://youtu.be/m_XYDY1fIJU",
+				"Matches": [
+					"Clag def. Josh (c) | Open Challenge | Intercontinental Championship",
+					"Bombshell def. Jessica Blake (c), Blaire, Valkyrie, Tracy Sherman, Sheik | Elimination Chamber | World Championship",
+					"Trey def. Alexander | #1 Contender for Intercontinental Championship",
+					"Kratos (c) def. Overgiver, Pepsi Man, Joker, SMAB, Eli Williams | Elimination Chamber | Triple Crown Championship"
+				]
+			},
+			{
+				"Name": "Fastlane",
+				"Color": "yellow",
+				"URL": "https://youtu.be/r448drT8fZQ",
+				"Matches": [
+					"Bray Wyatt def. Doom | Triple Crown Title Match @ WrestleMania",
+					"Spider-Gwen def. Alice Hart (c) | US Championship",
+					"Jessica Blake (c) def. CJ Lee | World Championship",
+					"Kratos (c) def. Clag | Triple Crown Championship"
+				]
+			},
+			{
 				"Name": "Royal Rumble",
 				"Color": "red",
 				"URL": "https://youtu.be/kqi5wfHQ_zg",
