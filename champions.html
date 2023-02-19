@@ -19,7 +19,7 @@
 
 <body onload="loadChampions()">
 
-	<h1 style="font-size: 2em; margin-bottom: 0; font-family: Verdana;">Last Updated: Royal Rumble</h1>
+	<h1 style="font-size: 2em; margin-bottom: 0; font-family: Verdana;">Last Updated: WrestleMania 3</h1>
 
 	<span class="all-champions-container">
 
@@ -139,7 +139,7 @@
 			<p style="margin-bottom: 0;">Josh</p>
 			<p style="font-size:.8em; margin-top: .2em;">(Won Triple Crown Championship)</p>
 			<p style="margin-bottom: 0;">Bray Wyatt</p>
-			<p style="font-size:.8em; margin-top: .2em;">()</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Lost Triple Crown Championship Match)</p>
 		</div>
 
 		<div class="champion-container" style="margin-top:2.5em; margin-bottom: 2.5em;">
@@ -147,7 +147,7 @@
 			<p style="margin-bottom: 0;">CJ Lee</p>
 			<p style="font-size:.8em; margin-top: .2em;">(Lost Women's Championship Match)</p>
 			<p style="margin-bottom: 0;">Catwoman</p>
-			<p style="font-size:.8em; margin-top: .2em;">()</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Lost World Championship Match)</p>
 		</div>
 	</span>
 
@@ -165,7 +165,7 @@
 
     async function loadChampions()
   	{
-  		const response = await fetch("champions.json?v=1.3.4");
+  		const response = await fetch("champions.json?v=1.4");
   		const json = await response.text();
   		myData = JSON.parse(json);
 

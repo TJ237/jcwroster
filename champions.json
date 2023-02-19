@@ -22,9 +22,10 @@
 	},
 	{
 		"Title": "World Champion",
-		"Current": "Jessica Blake",
+		"Current": "Bombshell",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/WomensTitle.png",
 		"History": [
+			"Jessica Blake",
 			"Blaire",
 			"CJ Lee",
 			"Catwoman",
@@ -39,9 +40,11 @@
 	},
 	{
 		"Title": "Intercontinental Champion",
-		"Current": "Josh - 0",
+		"Current": "Trey - 0",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/IntercontinentalTitle.png",
 		"History": [
+			"Clag - 0",
+			"Josh - 0",
 			"Overgiver - 3",
 			"Chad Thundercock - 0",
 			"Pepsi Man - 0",
@@ -61,9 +64,10 @@
 	},
 	{
 		"Title": "United States Champion",
-		"Current": "Alice Hart - 2",
+		"Current": "Amanda Diaz - 0",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/UnitedStatesTitle.png",
 		"History": [
+			"Alice Hart - 2",
 			"Blaire - 0",
 			"Catwoman - 3",
 			"Alice Hart - 0",
@@ -73,19 +77,19 @@
 		]
 	},
 	{
-		"Title": "ECW Champion",
-		"Current": "SMAB",
+		"Title": "- Champion",
+		"Current": "-",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/ECWTitle.png",
 		"History": [
-			"Joe Cruise"
+			"-"
 		]
 	},
 	{
-		"Title": "Hardcore Champion",
-		"Current": "Amanda Diaz",
+		"Title": "- Champion",
+		"Current": "-",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/WomensHardcoreTitle.png",
 		"History": [
-			"Scarlett"
+			"Scar-lett"
 		]
 	}
 ]
