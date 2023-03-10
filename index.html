@@ -1,11 +1,9 @@
 <!DOCTYPE html>
+<html>
 <head>
-	<link rel="stylesheet" href="styles.css?v=1.3">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="new_styles.css?v=0.1">
 	<title>JCW Roster</title>
-	
-	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-	<meta http-equiv="Pragma" content="no-cache" />
-	<meta http-equiv="Expires" content="0" />
 </head>
 
 <header>
@@ -17,208 +15,207 @@
 	</span>
 </header>
 
-<body onload="loadTest()">
+<body onload="loadRoster()">
 
-	<div class="filter-container">
-		<p2>Male</p2> <input type="checkbox" id="maleFilter" onchange="setFilter();">
-		<p2>Female</p2> <input type="checkbox" id="femaleFilter" onchange="setFilter();">
-	</div>
+<div class="row">
 
-	<select class="center" name="names" id="names" onchange="setData();">
-		<option value="" disabled selected>Roster</option>
-	</select>
+<div class="column">
+	<div class="dropdown">
+  		<button onclick="myFunction()" class="dropbtn">Filters</button>
+  		<div id="myDropdown" class="dropdown-content">
+			<a id="f_male" value=false href="javascript:setFilters(0);">Male</a>
+			<a id="f_female" value=false href="javascript:setFilters(1);">Female</a>
+			-----
+			<a id="f_raw" value=false href="javascript:setFilters(2);">Raw</a>
+			<a id="f_smackdown" value=false href="javascript:setFilters(3);">SmackDown</a>
+			<a id="f_freeagent" value=false href="javascript:setFilters(4);">Free Agent</a>
+			-----
+			<a id="f_face" value=false href="javascript:setFilters(5);">Face</a>
+			<a id="f_heel" value=false href="javascript:setFilters(6);">Heel</a>
+  		</div>
+    </div>
 
-	<div class="filter-container">
-		<p2>Face</p2> <input type="checkbox" id="faceFilter" onchange="setFilter();">
-		<p2>Heel</p2> <input type="checkbox" id="heelFilter" onchange="setFilter();">
-	</div>
+  <div class="vertical-menu" id="rosterList"></div>
+</div>
 
-	<p><img class="portrait" src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Vacant.png" alt="" width="250" height="250" id="pic" /></p>
-	<p id="name" style="text-align: center; font-size:30px;"><b>NAME</b></p>
-	<p id="reaction" style="text-align: center;">FACE/HEEL</p>
+<div class="column left-align">
+	<h1 class="wrestler-name" id="w_name">Chad Thundercock</h1>
+    <p class="wrestler-subtitle" id="w_subtitle">of Team Thundercock</p><br>
+    
+	Brand<br><b id="brand">SmackDown</b><br><br>
+	Overall<br><b id="overall">90</b><br><br>
+	Height<br><b id="height">7'0"</b><br><br>
+    Crowd Reaction<br><b id="reaction">Face</b><br><br>
+    Hometown<br><b id="hometown">Chad</b><br><br>
+    Weight Class<br><b id="weight">Super Heavyweight</b><br><br>
+    Class<br><b id="class">Striker</b><br><br>
+    Entrance Music<br><b id="music">Mr. McMahon</b><br><br>
+    Entrance Motion<br><b id="motion">Mr. McMahon</b><br><br>
+    Base Moveset<br><b id="moveset">Custom</b><br><br>
+    Signatures<br><b id="sig1">Signature 1</b><br><b id="sig2">Signature 2</b><br><br>
+    Finishers<br><b id="fin1">Finisher 1</b><br><b id="fin2">Finisher 2</b><br><br>
+</div>
 
-	<p id="hometown" style="text-align: center;">HOMETOWN</p>
-	<p id="height" style="text-align: center;">HEIGHT</p>
+<div class="column left-align">
+	<img id="pic" src="https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/ChadThundercock.jpg" width="500" height="500" alt="Wrestler Picture">
+</div>
 
-	<p id="moveset" style="text-align: center;"><b>BASE MOVE SET</b><br /></p>
-	<p id="signatures" style="text-align: center;"><b>SIGNATURES</b><br /></p>
-	<p id="finishers" style="text-align: center;"><b>FINISHERS</b><br /></p>
-
-	<p id="entmotion" style="text-align: center;"><b>ENTRANCE MOTION</b><br /></p>
-	<p id="entmusic" style="text-align: center;"><b>ENTRANCE MUSIC</b><br /></p>
-
-	<br>
-
-	<p onclick="showHideMusic()" 
-		style="margin-top: 5%; margin-bottom: 0; background-color: dimgray; cursor: pointer;">
-		<b>Show Music Being Used</b>
-	</p>
-	<p id="music" style="margin-top: 0; display: none;"></p>
-	
-	<p onclick="showHideMotions()"
-		style="margin-top: 5%; margin-bottom: 0; background-color: dimgray; cursor: pointer;">
-		<b>Show Entrance Motions Being Used</b>
-	</p>
-	<p id="motions" style="margin-top: 0; display: none;"></p>
-</body>
+</div>
 
 <script>
-	function setFilter ()
-	{
-		var rosterList = document.getElementById("names");
 
-		var maleFilter = document.getElementById("maleFilter").checked;
-		var femaleFilter = document.getElementById("femaleFilter").checked;
-		var faceFilter = document.getElementById("faceFilter").checked;
-		var heelFilter = document.getElementById("heelFilter").checked;
+function showChar(id)
+{
+	document.getElementById("w_name").innerText = myData[id].Name;
 
-		var gFilter = 0;
-			if (maleFilter && !femaleFilter) gFilter = 1;
-			else if (!maleFilter && femaleFilter) gFilter = 2;
+	if (myData[id].Faction)
+		document.getElementById("w_subtitle").innerText = "of " + myData[id].Faction;
+	else
+		document.getElementById("w_subtitle").innerText = "";
+	
+	document.getElementById("brand").innerText = myData[id].Brand;
+	document.getElementById("overall").innerText = myData[id].Overall;
+	document.getElementById("height").innerText = myData[id].Height + '"';
+	document.getElementById("reaction").innerText = myData[id].Reaction;
+	document.getElementById("hometown").innerText = myData[id].Hometown;
+	document.getElementById("weight").innerText = myData[id].WeightClass;
+	document.getElementById("class").innerText = myData[id].Class;
+	document.getElementById("music").innerText = myData[id].Music;
+	document.getElementById("motion").innerText = myData[id].Entrance;
+	document.getElementById("moveset").innerText = myData[id].Moveset;
+	document.getElementById("sig1").innerText = myData[id].Signatures[0];
+	document.getElementById("sig2").innerText = myData[id].Signatures[1];
+	document.getElementById("fin1").innerText = myData[id].Finishers[0];
+	document.getElementById("fin2").innerText = myData[id].Finishers[1];
 
-		var rFilter = 0;
-			if (faceFilter && !heelFilter) rFilter = 1;
-			else if (!faceFilter && heelFilter) rFilter = 2;
+	if (myData[id].Render)
+			document.getElementById("pic").src = myData[id].Render;
+	else
+		document.getElementById("pic").src = "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Vacant.png";
+}
 
-		for (i = 1; i < rosterList.length; i++)
+var filter_male = false;
+var filter_female = false;
+var filter_raw = false;
+var filter_smackdown = false;
+var filter_freeagent = false;
+var filter_face = false;
+var filter_heel = false;
+
+function setFilters(selection)
+{
+	switch (selection) {
+		case 0: // Male
+			var d = document.getElementById("f_male");
+			if (!filter_male) d.innerHTML = "&#10004 Male";
+				else d.innerHTML = "Male"
+			filter_male = !filter_male;
+			break;
+		case 1: // Female
+			var d = document.getElementById("f_female");
+			if (!filter_female) d.innerHTML = "&#10004 Female";
+				else d.innerHTML = "Female"
+			filter_female = !filter_female;
+			break;
+		case 2: // Raw
+			var d = document.getElementById("f_raw");
+			if (!filter_raw) d.innerHTML = "&#10004 Raw";
+				else d.innerHTML = "Raw";
+			filter_raw = !filter_raw;
+			break;
+		case 3: // SmackDown
+			var d = document.getElementById("f_smackdown");
+			if (!filter_smackdown) d.innerHTML = "&#10004 SmackDown";
+				else d.innerHTML = "SmackDown";
+			filter_smackdown = !filter_smackdown;
+			break;
+		case 4: // Free Agent
+			var d = document.getElementById("f_freeagent");
+			if (!filter_freeagent) d.innerHTML = "&#10004 Free Agent";
+				else d.innerHTML = "Free Agent";
+			filter_freeagent = !filter_freeagent;
+			break;
+		case 5: // Face
+			var d = document.getElementById("f_face");
+			if (!filter_face) d.innerHTML = "&#10004 Face";
+				else d.innerHTML = "Face";
+			filter_face = !filter_face;
+			break;
+		case 6: // Heel
+			var d = document.getElementById("f_heel");
+			if (!filter_heel) d.innerHTML = "&#10004 Heel";
+				else d.innerHTML = "Heel";
+			filter_heel = !filter_heel;
+			break;
+		default:
+			break;
+	}
+
+	//	rosterList[i].style.display = 'block';
+	//	rosterList[i].style.display = 'none';
+	for (let i = 0; i < myData.length; i++) {
+		var gFilter = true;
+		var sFilter = true;
+		var rFilter = true;
+
+		if (filter_male != filter_female)
+			if (filter_male && !myData[i].Male || filter_female && myData[i].Male)
+				gFilter = false;
+		
+		if (filter_face != filter_heel)
+			if (filter_face && myData[i].Reaction == "Heel" || filter_heel && myData[i].Reaction == "Face")
+				rFilter = false;
+
+		if (filter_raw != filter_smackdown || filter_raw != filter_freeagent)
 		{
-			if (maleFilter == femaleFilter && faceFilter == heelFilter)
-			{
-				rosterList[i].style.display = 'block';
-				continue;
-			}
-
-			var gMatch = false;
-			if (gFilter == 0 || myData[i-1].Male && gFilter == 1 || !myData[i-1].Male && gFilter == 2)
-				gMatch = true;
-			
-			var rMatch = false;
-			if (rFilter == 0 || myData[i-1].Reaction == "Face" && rFilter == 1 
-				|| myData[i-1].Reaction == "Heel" && rFilter == 2)
-				rMatch = true;
-
-			if (gMatch && rMatch)
-				rosterList[i].style.display = 'block';
-			else
-				rosterList[i].style.display = 'none';
+			if (myData[i].Brand == "Raw" && !filter_raw)
+				rFilter = false;
+			else if (myData[i].Brand == "SmackDown" && !filter_smackdown)
+				rFilter = false;
+			else if (!myData[i].Brand && !filter_freeagent)
+				rFilter = false;
 		}
-	}
 
-	function showHideMusic()
-	{
-		var element = document.getElementById("music");
-		if (element.style.display == "none") element.style.display = "block";
-		else element.style.display = "none";
-	}
-
-	function showHideMotions()
-	{
-		var element = document.getElementById("motions");
-		if (element.style.display == "none") element.style.display = "block";
-		else element.style.display = "none";
-	}
-
-	function setData()
-	{
-		var charButton = document.getElementById("names").selectedIndex - 1;
-
-		//document.getElementById("pic").src = myData[charButton].Img;
-
-		document.getElementById("name").innerHTML = "<b>" + myData[charButton].Name + "</b>";
-		document.getElementById("reaction").innerHTML = myData[charButton].Reaction;
-
-		if (myData[charButton].Render)
-			document.getElementById("pic").src = myData[charButton].Render;
+		if (gFilter && sFilter && rFilter)
+			document.getElementById("s_"+i).style.display = 'block';
 		else
-			document.getElementById("pic").src = "https://raw.githubusercontent.com/TJ237/jcwroster/main/Renders/Vacant.png";
-
-		if (myData[charButton].Hometown)
-			document.getElementById("hometown").innerHTML = 
-				"From " + myData[charButton].Hometown;
-		else
-			document.getElementById("hometown").innerHTML = "";
-		
-		if (myData[charButton].Height)
-			document.getElementById("height").innerHTML = "Height: " 
-				+ myData[charButton].Height + "\"";
-		else
-			document.getElementById("height").innerHTML = "Height: Unlisted";
-		
-		document.getElementById("moveset").innerHTML = "<b>BASE MOVE SET</b><br />"
-		document.getElementById("moveset").innerHTML += myData[charButton].Moveset;
-		
-		document.getElementById("signatures").innerHTML = "<b>SIGNATURES</b><br />"
-		document.getElementById("signatures").innerHTML += myData[charButton].Signatures[0] + "<br />";
-		document.getElementById("signatures").innerHTML += myData[charButton].Signatures[1];
-		
-		document.getElementById("finishers").innerHTML = "<b>FINISHERS</b><br />"
-		document.getElementById("finishers").innerHTML += myData[charButton].Finishers[0] + "<br />";
-		document.getElementById("finishers").innerHTML += myData[charButton].Finishers[1];
-		
-		document.getElementById("entmotion").innerHTML = "<b>ENTRANCE MOTION</b><br />"
-		document.getElementById("entmotion").innerHTML += myData[charButton].Entrance;
-		
-		document.getElementById("entmusic").innerHTML = "<b>ENTRANCE MUSIC</b><br />"
-		document.getElementById("entmusic").innerHTML += myData[charButton].Music;
+			document.getElementById("s_"+i).style.display = 'none';
 	}
+}
 
-	async function loadTest()
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+async function loadRoster()
 	{
-		const response = await fetch("roster.json?v=1.16");
+		const response = await fetch("roster.json?v=23.0.1");
 		const json = await response.text();
-		//console.log(json);
 		
 		myData = JSON.parse(json);
-
-		var namesList = document.getElementById("names");
-		var musicList = document.getElementById("music");
-		var motionList = document.getElementById("motions");
+		var namesList = document.getElementById("rosterList");
 		
 		for (i = 0; i < myData.length; i++)
 		{
-			let p = document.createElement("p");
-
-			var newOpt = document.createElement("option");
-			newOpt.text = myData[i].Name;
-			namesList.add(newOpt);
-			
-			musicList.innerHTML += "<br />" + myData[i].Music;
-			motionList.innerHTML += "<br />" + myData[i].Entrance;
+			var a = '<a id="s_'+i+'" href="javascript:showChar('+i+');">'+myData[i].Name+'</a>';
+			namesList.innerHTML += a;
 		}
 	}
 
-	function genWheel()
-	{
-		var mURL = "https://wheeldecide.com/index.php?";
-		var fURL = "https://wheeldecide.com/index.php?";
-		
-		var maleList = [];
-		var femaleList = [];
-
-		for (c = 0; c < myData.length; c++)
-		{
-			//console.log(myData[c].Name + ": " + myData[c].Male);
-			if (myData[c].Male) maleList.push(myData[c].Name);
-			else femaleList.push(myData[c].Name);
-		}
-
-		for (n = 0; n < maleList.length; n++)
-		{
-			maleList[n] = maleList[n].replace(' ', '+');
-			mURL += "c" + (n+1) + "=" + maleList[n] + "&";
-		}
-		
-		for (f = 0; f < femaleList.length; f++)
-		{
-			femaleList[f] = femaleList[f].replace(' ', '+');
-			fURL += "c" + (f+1) + "=" + femaleList[f] + "&";
-		}
-		
-		mURL += "time=5";
-		fURL += "time=5";
-		console.log(mURL);
-		console.log(fURL);
-	}
 </script>
 
+</body>
 </html>
