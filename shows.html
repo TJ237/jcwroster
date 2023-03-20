@@ -20,6 +20,7 @@
   <body onload="loadShows()">
 
 	<select class="center" name="seasons" id="seasons" onchange="changeSeason();">
+		<option>Season 4</option>
 		<option>Season 3</option>
 		<option>Season 2</option>
 	</select>
@@ -67,7 +68,7 @@
 
     async function loadShows()
   	{
-  		const response = await fetch("shows.json?v=1.7");
+  		const response = await fetch("shows.json?v=23.0.1");
   		const json = await response.text();
   		myData = JSON.parse(json);
 

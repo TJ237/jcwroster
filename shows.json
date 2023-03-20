@@ -3,6 +3,22 @@
 	{
 		"ppvs": [
 			{
+				"Name": "Money in the Bank",
+				"Color": "green",
+				"URL": "",
+				"Matches": [
+					"Kratos (c) vs Josh | Triple Crown Championship",
+					"Bombshell (c) vs ??? | World Championship",
+					"4-Man Money in the Bank Ladder Match",
+					"4-Woman Money in the Bank Ladder Match",
+					"Trey (c) vs ??? | Intercontinental Championship"
+				]
+			}
+		]
+	},
+	{
+		"ppvs": [
+			{
 				"Name": "WrestleMania 3",
 				"Color": "teal",
 				"URL": "https://youtu.be/CaLdXNTdGwE",

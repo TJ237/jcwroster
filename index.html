@@ -202,7 +202,7 @@ window.onclick = function(event) {
 
 async function loadRoster()
 	{
-		const response = await fetch("roster.json?v=23.0.1");
+		const response = await fetch("roster.json?v=23.0.2");
 		const json = await response.text();
 		
 		myData = JSON.parse(json);
