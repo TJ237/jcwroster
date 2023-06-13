@@ -40,56 +40,30 @@
 	},
 	{
 		"Title": "Intercontinental Champion",
-		"Current": "Trey - 0",
+		"Current": "Trey - 1",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/IntercontinentalTitle.png",
-		"History": [
-			"Clag - 0",
-			"Josh - 0",
-			"Overgiver - 3",
-			"Chad Thundercock - 0",
-			"Pepsi Man - 0",
-			"Trey - 3",
-			"Tyrone - 2",
-			"Michael - 0",
-			"Alexander Moore - 3",
-			"Dash Anderson - 1",
-			"Pepsi Man - 1",
-			"Clag - 0",
-			"Pepsi Man - 0",
-			"Chad Thundercock - 1",
-			"Trey - 0",
-			"Gary - 2",
-			"Clag - 0"
-		]
+		"History": []
 	},
 	{
 		"Title": "United States Champion",
-		"Current": "Amanda Diaz - 0",
+		"Current": "Amanda Diaz - 1",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/UnitedStatesTitle.png",
-		"History": [
-			"Alice Hart - 2",
-			"Blaire - 0",
-			"Catwoman - 3",
-			"Alice Hart - 0",
-			"Wonder Woman - 1",
-			"Luna Ivy - 3",
-			"Scarlett - 2"
-		]
+		"History": []
 	},
 	{
-		"Title": "- Champion",
-		"Current": "-",
+		"Title": "Universal Champion",
+		"Current": "SMAB",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/ECWTitle.png",
 		"History": [
 			"-"
 		]
 	},
 	{
-		"Title": "- Champion",
-		"Current": "-",
+		"Title": "Women's Champion",
+		"Current": "Catwoman",
 		"Render": "https://raw.githubusercontent.com/TJ237/jcwroster/main/Titles/WomensHardcoreTitle.png",
 		"History": [
-			"Scar-lett"
+			"-"
 		]
 	}
 ]

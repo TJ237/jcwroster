@@ -19,87 +19,88 @@
 
 <body onload="loadChampions()">
 
-	<h1 style="font-size: 2em; margin-bottom: 0; font-family: Verdana;">Last Updated: WrestleMania 3</h1>
+	<h1 style="font-size: 2em; margin-bottom: 0; font-family: Verdana;">Last Updated: Battleground</h1>
 
 	<span class="all-champions-container">
 
-		<!--
+		<div class="champion-container">
+			<br>
+			<h4 style="color:gold;">Mr. Money in the Bank</h4>
+			<p>Clag</p>
+		</div>
+		
 		<div class="champion-container">
 			<br>
 			<h4 style="color:gold;">Ms. Money in the Bank</h4>
-			<p>Jessica Blake</p>
+			<p>Akari</p>
 		</div>
-		-->
+		
 
 		<div class="champion-container">
 			<img width="256" height="128" src="" alt="" id="title-render-1" class="title-render">
 			<br>
 			<h4 id="title-1">Triple Crown Champion</h4>
-			<p id="title-current-1">Josh</p>
+			<p id="title-current-1">-</p>
 			<br>
 			<p class="title-history" onclick="openHistory(1)">v TITLE HISTORY v</p>
 			<p3 id="title-history-1" style="display: none;"></p3>
 		</div>
 
 		<div class="champion-container">
-			<img width="256" height="128" src="" alt="" id="title-render-2" class="title-render">
-			<br>
-			<h4 id="title-2">Women's Champion</h4>
-			<p id="title-current-2">Valkyrie</p>
-			<br>
-			<p class="title-history" onclick="openHistory(2)">v TITLE HISTORY v</p>
-			<p3 id="title-history-2" style="display: none;"></p3>
-		</div>
-
-		<div class="champion-container">
-			<img width="256" height="128" src="" alt="" id="title-render-3" class="title-render">
-			<br>
-			<h4 id="title-3">Intercontinental Champion</h4>
-			<p id="title-current-3">Vacant</p>
-			<br>
-			<p class="title-history" onclick="openHistory(3)">v TITLE HISTORY v</p>
-			<p3 id="title-history-3" style="display: none;"></p3>
-		</div>
-
-		<div class="champion-container">
-			<img width="256" height="128" src="" alt="" id="title-render-4" class="title-render">
-			<br>
-			<h4 id="title-4">United States Champion</h4>
-			<p id="title-current-4">Catwoman - 0</p>
-			<br>
-			<p class="title-history" onclick="openHistory(4)">v TITLE HISTORY v</p>
-			<p3 id="title-history-4" style="display: none;"></p3>
-		</div>
-
-		<div class="champion-container">
 			<img width="256" height="128" src="" alt="" id="title-render-5" class="title-render">
 			<br>
-			<h4 id="title-5">ECW Championship</h4>
-			<p id="title-current-5">Vacant</p>
+			<h4 id="title-5">Universal Championship</h4>
+			<p id="title-current-5">-</p>
 			<br>
 			<p class="title-history" onclick="openHistory(5)">v TITLE HISTORY v</p>
 			<p3 id="title-history-5" style="display: none;"></p3>
 		</div>
 
 		<div class="champion-container">
+			<img width="256" height="128" src="" alt="" id="title-render-2" class="title-render">
+			<br>
+			<h4 id="title-2">World Champion</h4>
+			<p id="title-current-2">-</p>
+			<br>
+			<p class="title-history" onclick="openHistory(2)">v TITLE HISTORY v</p>
+			<p3 id="title-history-2" style="display: none;"></p3>
+		</div>
+
+		<div class="champion-container">
 			<img width="256" height="128" src="" alt="" id="title-render-6" class="title-render">
 			<br>
-			<h4 id="title-6">Women's Hardcore Championship</h4>
-			<p id="title-current-6">Vacant</p>
+			<h4 id="title-6">Women's Championship</h4>
+			<p id="title-current-6">-</p>
 			<br>
 			<p class="title-history" onclick="openHistory(6)">v TITLE HISTORY v</p>
 			<p3 id="title-history-6" style="display: none;"></p3>
+		</div>
+
+		<div class="champion-container">
+			<img width="256" height="128" src="" alt="" id="title-render-3" class="title-render">
+			<br>
+			<h4 id="title-3">Intercontinental Champion</h4>
+			<p id="title-current-3">-</p>
+		</div>
+
+		<div class="champion-container">
+			<img width="256" height="128" src="" alt="" id="title-render-4" class="title-render">
+			<br>
+			<h4 id="title-4">United States Champion</h4>
+			<p id="title-current-4">-</p>
 		</div>
 
 		<!--	Money in the Bank History	-->
 		<div class="champion-container" style="margin-top:5em; margin-bottom: 2.5em;">
 			<h4 style="color:gold;">Men's MITB History</h4>
 			<p style="margin-bottom: 0;">Batman</p>
-			<p style="font-size:.8em; margin-top: .2em;">(Failed to Cash-In on Josh)</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Failed Announced Cash-In on Josh)</p>
 			<p style="margin-bottom: 0;">Chad Thundercock</p>
 			<p style="font-size:.8em; margin-top: .2em;">(Successfully Cashed In on Josh)</p>
 			<p style="margin-bottom: 0;">Kratos</p>
 			<p style="font-size:.8em; margin-top: .2em;">(Successfully Cashed In on King Alexander)</p>
+			<p style="margin-bottom: 0;">Clag</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Has not cashed in yet)</p>
 		</div>
 
 		<div class="champion-container" style="margin-top:2.5em; margin-bottom: 2.5em;">
@@ -110,6 +111,8 @@
 			<p style="font-size:.8em; margin-top: .2em;">(Successfully Cashed In on Blaire)</p>
 			<p style="margin-bottom: 0;">Jessica Blake</p>
 			<p style="font-size:.8em; margin-top: .2em;">(Successfully Cashed In on Blaire)</p>
+			<p style="margin-bottom: 0;">Akari</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Has not cashed in yet)</p>
 		</div>
 
 		<!--	KOTR / QOTR History	-->
@@ -134,8 +137,8 @@
 		<!--	Royal Rumble History	-->
 		<div class="champion-container" style="margin-top:5em; margin-bottom: 2.5em;">
 			<h4 style="color:gold;">Men's Royal Rumble History</h4>
-			<p style="margin-bottom: 0;">Michael</p>
-			<p style="font-size:.8em; margin-top: .2em;">(Lost Title Opportunity to Clag)</p>
+			<p style="margin-bottom: 0;">Clag</p>
+			<p style="font-size:.8em; margin-top: .2em;">(Won World Heavyweight Championship)</p>
 			<p style="margin-bottom: 0;">Josh</p>
 			<p style="font-size:.8em; margin-top: .2em;">(Won Triple Crown Championship)</p>
 			<p style="margin-bottom: 0;">Bray Wyatt</p>
@@ -165,7 +168,7 @@
 
     async function loadChampions()
   	{
-  		const response = await fetch("champions.json?v=1.4");
+  		const response = await fetch("champions.json?v=23.1.0");
   		const json = await response.text();
   		myData = JSON.parse(json);
 
